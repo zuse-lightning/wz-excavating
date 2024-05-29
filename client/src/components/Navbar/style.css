@@ -1,0 +1,62 @@
+#main-menu,
+#mobile-main-menu {
+    background-image: url("https://wz-excavating-bucket.s3.amazonaws.com/banners/navbar-backdrop.jpeg");
+    background-position: 20% 30%;
+    margin: 0!important;
+    padding: 0 30%;
+    background-color: #fefcfd;
+}
+
+.header-nav-item {
+    font-size: 20px;
+    color: white!important;
+    padding-top: -3%!important;
+    padding-bottom: 1%!important;
+}
+
+.header-nav-item:not(:first-child) {
+    padding-bottom: 5%!important;
+}
+
+.header-nav-item:hover {
+    color: #243557;
+}
+
+.dropdown.icon {
+    text-decoration: none !important;
+}
+
+.ui.secondary.menu .active.item {
+    background: none !important;
+}
+
+.ui.secondary.menu .active.item:hover {
+    background: none !important;
+}
+
+@media (max-width: 991px) {
+    .header-nav-item {
+        text-decoration: none !important;
+    }
+
+    .header-nav-item:hover {
+        text-decoration: none !important;
+        background-color: transparent !important;
+    }
+
+    #header-nav-stack {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #main-menu {
+        padding: 1% 5%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 362px) {
+    #main-menu {
+        padding: 2% 2%;
+    }
+}

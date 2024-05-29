@@ -4,8 +4,11 @@ import Home from "../../pages/Home";
 import Services from "../../pages/Services";
 import Gallery from "../../pages/Gallery";
 import Contact from "../../pages/Contact";
+import AnnouncementBar from "../../components/AnnouncementBar";
+import Navbar from "../../components/Navbar";
 
 import "./style.css";
+
 
 const getWindowDimensions = () => {
     const page = document.querySelector("html");
@@ -36,6 +39,8 @@ const App = () => {
 
     return (
         <>
+            <AnnouncementBar />
+            <Navbar />
             <div id="main-container">
                 <Routes>
                     <Route exact path="/" element={<Home />} />

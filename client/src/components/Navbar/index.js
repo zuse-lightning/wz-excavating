@@ -6,8 +6,47 @@ import "./style.css";
 
 const Navbar = () => {
     return (
-        <Menu id="main-menu" inverted pointing secondary fluid>
-            
+        <Menu id="main-menu" pointing secondary fluid>
+            <Menu.Item
+                className="header-nav-item"
+                position="left"
+                as={Link} 
+                to="/"
+                name="home"
+            >
+                <div id="wz-logo-container">
+                    <Image 
+                        draggable="false"
+                        size="small"
+                        id="home-btn-img"
+                        src="https://wz-excavating-bucket.s3.amazonaws.com/wz-logo.png"
+                    />
+                </div>
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
+                to="/services"
+                name="services"
+            >
+                Services
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
+                to="/gallery"
+                name="gallery"
+            >
+                Gallery
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
+                to="/contact"
+                name="contact"
+            >
+                Contact
+            </Menu.Item>
         </Menu>
     );
 };
