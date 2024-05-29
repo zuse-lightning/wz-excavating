@@ -1,12 +1,51 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "../../pages/Home";
+import Services from "../../pages/Services";
+import Gallery from "../../pages/Gallery";
+import Contact from "../../pages/Contact";
 
 import "./style.css";
 
+const getWindowDimensions = () => {
+    const page = document.querySelector("html");
+    const { clientWidth: width, clientHeight: height } = page;
+    return {
+        width,
+        height
+    }
+};
+
+const useWindowDimensions = () => {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowDimensions(getWindowDimensions());
+        }
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    return windowDimensions;
+};
+
 const App = () => {
+
+    const { width, height } = useWindowDimensions();
+
     return (
-        <div>
-            <h1>App</h1>
-        </div>
+        <>
+            <div id="main-container">
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/services/*" element={<Services />} />
+                    <Route exact path="/gallery" element={<Gallery />} />
+                    <Route exact path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
+        </>
+
     );
 };
 
