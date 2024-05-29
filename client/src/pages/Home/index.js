@@ -1,9 +1,15 @@
 import React from "react";
+import HomeSlideShow from "../../components/HomeSlideShow";
+import AboutUs from "../../components/AboutUs";
 
 const Home = (props) => {
+
+    const { screenWidth } = props;
+
     return (
         <>
-            <h1>Home</h1>
+            <HomeSlideShow screenWidth={screenWidth} />
+            <AboutUs screenWidth={screenWidth} />
         </>
     );
 };

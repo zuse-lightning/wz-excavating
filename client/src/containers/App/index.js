@@ -43,7 +43,7 @@ const App = () => {
             <Navbar />
             <div id="main-container">
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/" element={<Home screenWidth={width} />} />
                     <Route exact path="/services/*" element={<Services />} />
                     <Route exact path="/gallery" element={<Gallery />} />
                     <Route exact path="/contact" element={<Contact />} />
