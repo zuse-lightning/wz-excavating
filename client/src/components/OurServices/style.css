@@ -1,0 +1,52 @@
+#our-services-container {
+    width: 60%;
+    margin: 2% 20%;
+}
+
+#our-services {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.service-col {
+    grid-column: span 4;
+    animation: flip-back 1s;
+    animation-fill-mode: forwards;
+}
+
+.service-col:hover {
+    animation: flip-image 1s;
+    animation-fill-mode: forwards;
+}
+
+.service-card {
+    position: relative;
+}
+
+.service-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 40%!important;
+}
+
+@keyframes flip-image {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes flip-back {
+    0% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}

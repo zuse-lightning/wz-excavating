@@ -19,8 +19,6 @@
     text-align: center;
     background-image: url("https://wz-excavating-bucket.s3.amazonaws.com/banners/navbar-backdrop.jpeg");
     background-position: 20% 30%;
-    /* width: 60%;
-    margin: 0 20%; */
 }
 
 .home-slideshow-dot {
@@ -29,12 +27,12 @@
     width: 20px;
     border-radius: 50%;
     cursor: pointer;
-    margin: 15px 7px 0px;
-    background-color: #c4c4c4;
+    margin: 15px 7px 10px;
+    background-color: #482b7b;
 }
 
 .home-slideshow-dot.active {
-    background-color: #838085;
+    border: 2px solid #bec1c0;
 }
 
 @media (max-width: 2030px) and (min-width: 1700px) { 
