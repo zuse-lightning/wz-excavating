@@ -6,6 +6,7 @@ import Gallery from "../../pages/Gallery";
 import Contact from "../../pages/Contact";
 import AnnouncementBar from "../../components/AnnouncementBar";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 import "./style.css";
 
@@ -49,6 +50,7 @@ const App = () => {
                     <Route exact path="/contact" element={<Contact />} />
                 </Routes>
             </div>
+            <Footer />
         </>
 
     );

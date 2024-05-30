@@ -1,0 +1,11 @@
+#footer-container {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.footer-row:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
