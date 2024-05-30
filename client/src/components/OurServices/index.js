@@ -8,6 +8,7 @@ import "./style.css";
 const OurServices = (props) => {
 
     const { screenWidth } = props;
+    
 
     return (
         <div id="our-services-container">
@@ -15,7 +16,7 @@ const OurServices = (props) => {
                 {serviceSlidesMobile.map((service, index) => (
                     <div className="service-col" key={index}>
                         <div className="service-card">
-                            <Image fluid src={service} />
+                            <Image className="service-img" fluid src={service} />
                             <Button fluid className="service-btn">Learn More</Button>
                         </div>
                     </div>
