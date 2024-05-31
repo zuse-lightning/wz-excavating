@@ -1,8 +1,18 @@
 #about-us-container {
+    background-color: #482b7b;
+    padding: 2% 20%;
+}
+
+#about-us {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
+    column-gap: 100px;
     row-gap: 20px;
-    width: 60%;
-    margin: 2% 20%;
+}
+
+#about-us-header, #about-us-subheader, 
+#choose-us-header, .about-us-text,
+.choose-us-list-item, .choose-us-list-header,
+.choose-us-list-desc {
+    color: #ffffff!important;
 }
