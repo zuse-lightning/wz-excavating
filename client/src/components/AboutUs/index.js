@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, List } from "semantic-ui-react"
+import { Header, List, Button } from "semantic-ui-react"
 import { Link } from "react-router-dom";
 
 import "./style.css";
@@ -20,7 +20,10 @@ const AboutUs = () => {
                     <p className="about-us-text">
                         Contact us today for a free estimate on your next project!
                     </p>
-                    <Link to="/contact">Contact Us</Link>
+                    <div id="about-us-btn-container">
+                        <Button id="about-us-btn" as={Link} to="/about">Learn More</Button>
+                        <Button id="get-quote-btn" as={Link} to="/quotes">Get A Quote</Button>
+                    </div>
                 </div>
                 <div className="about-us-col">
                     <Header id="choose-us-header" as="h1">Why Choose Us?</Header>
