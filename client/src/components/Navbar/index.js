@@ -26,10 +26,26 @@ const Navbar = () => {
             <Menu.Item
                 className="header-nav-item"
                 as={Link}
+                to="/about"
+                name="about"
+            >
+                About
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
                 to="/services"
                 name="services"
             >
                 Services
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
+                to="/equipment"
+                name="equipment"
+            >
+                Equipment
             </Menu.Item>
             <Menu.Item
                 className="header-nav-item"
@@ -46,6 +62,14 @@ const Navbar = () => {
                 name="contact"
             >
                 Contact
+            </Menu.Item>
+            <Menu.Item
+                className="header-nav-item"
+                as={Link}
+                to="/quotes"
+                name="quotes"
+            >
+                Get A Quote
             </Menu.Item>
         </Menu>
     );
