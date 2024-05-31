@@ -6,7 +6,10 @@ export const serviceSlides = [
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/drainage.png",
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png",
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/lawn-care.png",
-    "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/snow-removal.png"
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/snow-removal.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/site-prep.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/driveways.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/landscape.png"
 ];
 
 export const serviceSlidesMobile = [
@@ -17,5 +20,8 @@ export const serviceSlidesMobile = [
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/drainage-mobile.png",
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/patios-mobile.png",
     "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/lawn-care-mobile.png",
-    "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/snow-removal-mobile.png"
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/snow-removal-mobile.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/site-prep-mobile.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/driveways-mobile.png",
+    "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/landscape-mobile.png"
 ];

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
+import About from "../../pages/About";
 import Services from "../../pages/Services";
+import Equipment from "../../pages/Equipment";
 import Gallery from "../../pages/Gallery";
 import Contact from "../../pages/Contact";
+import Quotes from "../../pages/Quotes";
 import AnnouncementBar from "../../components/AnnouncementBar";
 import Navbar from "../../components/Navbar";
 import Certifications from "../../components/Certifications";
@@ -47,9 +50,12 @@ const App = () => {
             <div id="main-container">
                 <Routes>
                     <Route exact path="/" element={<Home screenWidth={width} />} />
+                    <Route exact path="/about" element={<About />} />
                     <Route exact path="/services/*" element={<Services />} />
+                    <Route exact path="/equipment" element={<Equipment />} />
                     <Route exact path="/gallery" element={<Gallery />} />
                     <Route exact path="/contact" element={<Contact />} />
+                    <Route exact path="/quotes" element={<Quotes />} />
                 </Routes>
             </div>
             <Certifications />
