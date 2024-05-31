@@ -16,10 +16,12 @@
 #announce-phone-number {
     color: white;
     font-size: 24px;
+    font-family: 'Antonio', sans-serif;
 }
 #announce-address {
     color: white;
     font-size: 24px;
+    font-family: 'Antonio', sans-serif;
 }
 
 .announce-social-icon-wrapper {

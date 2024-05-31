@@ -12,6 +12,7 @@
     color: white!important;
     padding-top: -3%!important;
     padding-bottom: 1%!important;
+    font-family: 'Antonio', sans-serif;
 }
 
 .header-nav-item:not(:first-child) {

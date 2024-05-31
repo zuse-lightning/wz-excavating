@@ -27,6 +27,10 @@
     color: #ffffff!important;
 }
 
+.footer-header, .footer-text, #footer-copyright {
+    font-family: 'Antonio', sans-serif!important;
+}
+
 /* #footer-logo {
     text-align: center;
 } */
