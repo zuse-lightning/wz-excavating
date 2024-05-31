@@ -6,7 +6,9 @@ import "./style.css";
 const Testimonials = () => {
     return (
         <div id="testimonials-container">
-            <Header as="h1">Hear From Our Valued Customers</Header>
+            <div id="testimonials-header-container">
+                <Header id="testimonials-header" as="h1">Hear From Our Valued Customers</Header>
+            </div>
             <div id="testimonials">
                 <div className="testimonial-col">
                     <Icon className="testimonial-icon" name="quote left" size="big" />
