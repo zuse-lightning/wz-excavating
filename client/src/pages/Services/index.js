@@ -13,6 +13,9 @@ const Services = (props) => {
                 <Route exact path="patios" />
                 <Route exact path="lawn-care" />
                 <Route exact path="snow-removal" />
+                <Route exact path="site-prep" />
+                <Route exact path="driveways" />
+                <Route exact path="landscape" />
             </Routes>
         </>
     );
