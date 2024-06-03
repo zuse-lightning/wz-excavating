@@ -91,6 +91,13 @@ const TopSoil = (props) => {
                             </List.Content>
                         </List.Item>
                     </List>
+                    <p className="top-soil-text">
+                        Boost your soil’s potential with our topsoil services. Contact us today to learn more and schedule a consultation!
+                    </p>
+                    <div id="top-soil-btn-container">
+                        <Button className="top-soil-btn" as={Link} to="/gallery">Gallery</Button>
+                        <Button className="top-soil-btn" as={Link} to="/quotes">Get A Quote</Button> 
+                    </div>
                 </div>
             </div>
         </>

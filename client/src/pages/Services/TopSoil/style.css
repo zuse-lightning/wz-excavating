@@ -34,6 +34,10 @@
     margin: 0 5%;
 }
 
+.top-soil-text:last-child {
+    text-align: center!important;
+}
+
 #top-soil-list {
     width: 90%;
     margin: 0 5%;
@@ -49,4 +53,25 @@
 
 .top-soil-bold-text {
     color: #482b7b;
+}
+
+#top-soil-btn-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.top-soil-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 15%!important;
+    border: 1px solid #fff!important;
+    margin: 0 1%!important;
+    transition: 0.5s!important;
+}
+
+.top-soil-btn:hover {
+    background-color: #fff!important;
+    color: #482b7b!important;
+    border: 1px solid #482b7b!important;
+    transition: 0.5s!important;
 }
