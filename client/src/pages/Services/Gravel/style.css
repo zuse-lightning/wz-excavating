@@ -1,0 +1,103 @@
+#gravel-container {
+    background-color: #482b7b;
+}
+
+#gravel-banner {
+    height: 500px;
+    object-fit: cover;
+}
+
+#gravel {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+.gravel-header {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b;
+}
+
+#gravel-content-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 100px;
+    row-gap: 20px;
+    width: 90%;
+    margin: 2% 5%;
+}
+
+.gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
+.gravel-content-col:nth-child(5) {
+    grid-column: span 5;
+}
+
+.gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
+.gravel-content-col:nth-child(6) {
+    grid-column: span 7;
+}
+
+.gravel-content-img {
+    padding: 10% 0;
+}
+
+.gravel-subheader {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b!important;
+    width: 90%!important;
+    margin: 2% 5% 1%!important;
+}
+
+.gravel-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#gravel-list {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.gravel-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #482b7b;
+    margin-bottom: 2%;
+}
+
+.gravel-bold-text {
+    color: #482b7b;
+}
+
+#gravel-btn-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.gravel-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 15%!important;
+    border: 1px solid #fff!important;
+    margin: 0 1%!important;
+    transition: 0.5s!important;
+}
+
+.gravel-btn:hover {
+    background-color: #fff!important;
+    color: #482b7b!important;
+    border: 1px solid #482b7b!important;
+    transition: 0.5s!important;
+}
+
+#gravel-last-line {
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 2%;
+    text-align: center;
+}
