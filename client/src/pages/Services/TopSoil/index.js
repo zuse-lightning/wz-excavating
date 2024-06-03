@@ -43,11 +43,6 @@ const TopSoil = (props) => {
                         We provide screened, nutrient-rich topsoil for gardens, lawns, and construction sites. Perfect for filling low spots, 
                         creating garden beds, or ensuring a fertile layer for planting.
                     </p>
-                    <Header className="top-soil-subheader" as="h3">Soil Testing and Analysis</Header>
-                    <p className="top-soil-text">
-                        Understand your soil’s needs with our detailed soil testing. We assess nutrient content, pH levels, and organic 
-                        matter to provide customized recommendations for fertilizers and soil amendments.
-                    </p>
                     <Header className="top-soil-header" as="h1">Why Choose Us?</Header>
                     <List id="top-soil-list">
                         <List.Item className="top-soil-list-item">
