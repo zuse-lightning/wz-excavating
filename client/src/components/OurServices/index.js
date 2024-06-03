@@ -9,15 +9,28 @@ const OurServices = (props) => {
 
     const { screenWidth } = props;
     
+    const services = [
+        { img: serviceSlidesMobile[0], path: "/services/top-soil" },
+        { img: serviceSlidesMobile[1], path: "/services/gravel" },
+        { img: serviceSlidesMobile[2], path: "/services/land-grading" },
+        { img: serviceSlidesMobile[3], path: "/services/excavation" },
+        { img: serviceSlidesMobile[4], path: "/services/drainage" },
+        { img: serviceSlidesMobile[5], path: "/services/patios" },
+        { img: serviceSlidesMobile[6], path: "/services/lawn-care" },
+        { img: serviceSlidesMobile[7], path: "/services/snow-removal" },
+        { img: serviceSlidesMobile[8], path: "/services/site-prep" },
+        { img: serviceSlidesMobile[9], path: "/services/driveways" },
+        { img: serviceSlidesMobile[10], path: "/services/landscape" }
+    ];
 
     return (
         <div id="our-services-container">
             <div id="our-services">
-                {serviceSlidesMobile.map((service, index) => (
+                {services.map((service, index) => (
                     <div className="service-col" key={index}>
                         <div className="service-card">
-                            <Image className="service-img" fluid src={service} />
-                            <Button fluid className="service-btn">Learn More</Button>
+                            <Image className="service-img" fluid src={service.img} />
+                            <Button as={Link} to={service.path} fluid className="service-btn">Learn More</Button>
                         </div>
                     </div>
                 ))}
