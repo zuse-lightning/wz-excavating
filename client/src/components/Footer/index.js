@@ -19,8 +19,8 @@ const Footer = () => {
                     <div className="footer-col">
                         <Header as="h3" className="footer-header">Contact Information</Header>
                         <p className="footer-text" id="footer-contact-info">
-                            <Icon className="footer-icon" name="map pin" />1234 Main Street Springfield, IL 62704<br />
-                            <Icon className="footer-icon" name="phone" /> (217) 555-1234<br />
+                            <Icon className="footer-icon" name="map pin" />1323 Ave D Unit 1129, Snohomish, WA 98291<br />
+                            <Icon className="footer-icon" name="phone" />(203) 738-8106<br />
                             <Icon className="footer-icon" name="mail" /> info@wzexcavating.com<br />
                         </p>
                     </div>

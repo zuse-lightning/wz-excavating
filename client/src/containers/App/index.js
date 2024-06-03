@@ -52,7 +52,7 @@ const App = () => {
                     <Route exact path="/" element={<Home screenWidth={width} />} />
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/services/*" element={<Services />} />
-                    <Route exact path="/equipment" element={<Equipment />} />
+                    {/* <Route exact path="/equipment" element={<Equipment />} /> */}
                     <Route exact path="/gallery" element={<Gallery />} />
                     <Route exact path="/contact" element={<Contact />} />
                     <Route exact path="/quotes" element={<Quotes />} />

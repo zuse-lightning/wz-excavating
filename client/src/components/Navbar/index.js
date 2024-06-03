@@ -5,17 +5,32 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 const Navbar = () => {
+
+    const services = [
+        { name: "Top Soil", path: "/services/top-soil" },
+        { name: "Gravel", path: "/services/gravel" },
+        { name: "Land Grading", path: "/services/land-grading" },
+        { name: "Excavation", path: "/services/excavation" },
+        { name: "Drainage", path: "/services/drainage" },
+        { name: "Patios", path: "/services/patios" },
+        { name: "Lawn Care", path: "/services/lawn-care" },
+        { name: "Snow Removal", path: "/services/snow-removal" },
+        { name: "Site Prep", path: "/services/site-prep" },
+        { name: "Driveways", path: "/services/driveways" },
+        { name: "Landscape", path: "/services/landscape" }
+    ];
+
     return (
         <Menu id="main-menu" pointing secondary fluid>
             <Menu.Item
                 className="header-nav-item"
                 position="left"
-                as={Link} 
+                as={Link}
                 to="/"
                 name="home"
             >
                 <div id="wz-logo-container">
-                    <Image 
+                    <Image
                         draggable="false"
                         size="small"
                         id="home-btn-img"
@@ -33,20 +48,29 @@ const Navbar = () => {
             </Menu.Item>
             <Menu.Item
                 className="header-nav-item"
-                as={Link}
-                to="/services"
+                as={Dropdown}
                 name="services"
+                text="Services"
             >
-                Services
+                <Dropdown.Menu>
+                    {services.map((service, index) => (
+                        <Dropdown.Item
+                            key={index}
+                            as={Link}
+                            to={service.path}
+                            text={service.name}
+                        />
+                    ))}
+                </Dropdown.Menu>
             </Menu.Item>
-            <Menu.Item
+            {/* <Menu.Item
                 className="header-nav-item"
                 as={Link}
                 to="/equipment"
                 name="equipment"
             >
                 Equipment
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item
                 className="header-nav-item"
                 as={Link}
