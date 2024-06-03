@@ -1,0 +1,52 @@
+#top-soil-container {
+    background-color: #482b7b;
+}
+
+#top-soil-banner {
+    height: 500px;
+    object-fit: cover;
+}
+
+#top-soil {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+.top-soil-header {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b;
+}
+
+.top-soil-subheader {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b!important;
+    width: 90%!important;
+    margin: 2% 5% 1%!important;
+}
+
+.top-soil-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#top-soil-list {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.top-soil-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #482b7b;
+    margin-bottom: 2%;
+}
+
+.top-soil-bold-text {
+    color: #482b7b;
+}
