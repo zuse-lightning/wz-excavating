@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Icon, Image } from "semantic-ui-react";
+import { Header, Icon, Image, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "./style.css";
@@ -25,17 +25,40 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="footer-col">
-                        <Header as="h3" className="footer-header">Connect Online</Header>
-                        <div id="footer-social-media">
-                            <Icon className="footer-icon" name="facebook" size="big" />
-                            <Icon className="footer-icon" name="twitter" size="big" />
-                            <Icon className="footer-icon" name="instagram" size="big" />
+                        <Header as="h3" className="footer-header">Hours of Operation</Header>
+                        <div id="footer-hours-container">
+                            <div className="footer-hours-col">
+                                <p className="footer-text">Monday - Friday</p>
+                            </div>
+                            <div className="footer-hours-col">
+                                <p className="footer-text">6:00 AM - 6:00 PM</p>
+                            </div>
+                            <div className="footer-hours-col">
+                                <p className="footer-text">Saturday</p>
+                            </div>
+                            <div className="footer-hours-col">
+                                <p className="footer-text">9:00 AM - 5:00 PM</p>
+                            </div>
+                            <div className="footer-hours-col">
+                                <p className="footer-text">Sunday</p>
+                            </div>
+                            <div className="footer-hours-col">
+                                <p className="footer-text">Closed</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="footer-row">
                     <div className="footer-col">
                         <Image as={Link} to="/" id="footer-logo" src="https://wz-excavating-bucket.s3.amazonaws.com/wz-logo.png" size="small" />
+                    </div>
+                    <div className="footer-col">
+                        <Header as="h3" className="footer-header">Connect Online</Header>
+                        <div id="footer-social-media">
+                            <Icon className="footer-icon" name="facebook" size="big" />
+                            <Icon className="footer-icon" name="twitter" size="big" />
+                            <Icon className="footer-icon" name="instagram" size="big" />
+                        </div>
                     </div>
                     <div className="footer-col">
                         <p className="footer-text" id="footer-copyright">© 2024 WZ Excavating LLC</p>
