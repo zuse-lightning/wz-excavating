@@ -1,0 +1,15 @@
+#contact-container {
+    width: 60%;
+    margin: 0 20%;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.contact-col:last-child {
+    grid-column: span 2;
+}
