@@ -11,13 +11,15 @@ const Contact = (props) => {
             <div id="contact-container">
                 <div id="contact">
                     <div className="contact-col">
-                        <Header as="h1">Contact Information</Header>
-                        <p><Icon id="phone-icon" name="phone" /> (425) 334-4040</p>
-                        <p><Icon id="mail-icon" name="mail" /><a href="mailto:tyler@wzexcavting.com">tyler@wzexcavting.com</a></p>
-                        <p><Icon id="location-icon" name="map marker alternate" /> 1323 Ave D #1129, Snohomish, WA 98290</p>
+                        <Header className="contact-header" as="h1">Contact Information</Header>
+                        <div id="contact-info">
+                            <p><Icon id="phone-icon" name="phone" /> (425) 334-4040</p>
+                            <p><Icon id="mail-icon" name="mail" /><a href="mailto:tyler@wzexcavting.com">tyler@wzexcavting.com</a></p>
+                            <p><Icon id="location-icon" name="map marker alternate" /> 1323 Ave D #1129, Snohomish, WA 98290</p>
+                        </div>
                     </div>
                     <div className="contact-col">
-                        <Header as="h1">Contact Us Online</Header>
+                        <Header className="contact-header" as="h1">Contact Us Online</Header>
                         <ContactForm />
                     </div>
                     <div className="contact-col">

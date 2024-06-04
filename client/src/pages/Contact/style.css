@@ -1,6 +1,7 @@
 #contact-container {
     width: 60%;
     margin: 0 20%;
+    padding: 1% 0;
 }
 
 #contact {
@@ -10,6 +11,14 @@
     row-gap: 40px;
 }
 
+#contact-info {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.contact-header {
+    text-align: center;
+}
 
 .contact-col:last-child {
     grid-column: span 2;
