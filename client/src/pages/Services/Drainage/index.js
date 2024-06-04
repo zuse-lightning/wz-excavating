@@ -1,4 +1,6 @@
 import React from "react";
+import { Image, Header, Button, List } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
