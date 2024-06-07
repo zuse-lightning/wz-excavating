@@ -11,10 +11,9 @@ const Navbar = () => {
         { name: "Gravel", path: "/services/gravel" },
         { name: "Land Grading", path: "/services/land-grading" },
         { name: "Excavation", path: "/services/excavation" },
-        { name: "Drainage", path: "/services/drainage" },
-        { name: "Patios", path: "/services/patios" },
+        { name: "Drainage Systems & Trenches", path: "/services/drainage" },
+        { name: "Patios, Walks & Retaining Walls", path: "/services/patios" },
         { name: "Lawn Care", path: "/services/lawn-care" },
-        { name: "Snow Removal", path: "/services/snow-removal" },
         { name: "Site Prep", path: "/services/site-prep" },
         { name: "Driveways", path: "/services/driveways" },
         { name: "Landscape", path: "/services/landscape" }

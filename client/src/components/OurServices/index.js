@@ -17,10 +17,9 @@ const OurServices = (props) => {
         { img: serviceSlidesMobile[4], path: "/services/drainage" },
         { img: serviceSlidesMobile[5], path: "/services/patios" },
         { img: serviceSlidesMobile[6], path: "/services/lawn-care" },
-        { img: serviceSlidesMobile[7], path: "/services/snow-removal" },
-        { img: serviceSlidesMobile[8], path: "/services/site-prep" },
-        { img: serviceSlidesMobile[9], path: "/services/driveways" },
-        { img: serviceSlidesMobile[10], path: "/services/landscape" }
+        { img: serviceSlidesMobile[7], path: "/services/site-prep" },
+        { img: serviceSlidesMobile[8], path: "/services/driveways" },
+        { img: serviceSlidesMobile[9], path: "/services/landscape" }
     ];
 
     return (
