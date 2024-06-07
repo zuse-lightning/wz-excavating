@@ -43,24 +43,20 @@ const Drainage = (props) => {
                                         </List.Item>
                                     </List>
                                 </List.Item>
+                                <List.Item className="drainage-list-item">
+                                    <List.Header className="drainage-list-header">
+                                        <b className="drainage-bold-text">2. Maintenance and Repair:</b>
+                                    </List.Header>
+                                    <List bulleted className="drainage-sub-list">
+                                        <List.Item className="drainage-sub-list-item">
+                                            <b className="drainage-bold-text">Regular Maintenance:</b> Includes cleaning gutters, checking for pipe blockages, and ensuring all components function properly.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            <b className="drainage-bold-text">Repair Services:</b> Addresses issues such as cracked pipes, damaged drains, and malfunctioning pumps, preventing small issues from becoming major problems.
+                                        </List.Item>
+                                    </List>
+                                </List.Item>
                             </List>
-                            <p className="drainage-text">
-                                Foundation excavation is essential for any construction project, providing a stable base for buildings
-                                and structures. Our team specializes in preparing sites for foundations of all sizes, from residential
-                                homes to large commercial buildings. We use advanced equipment and techniques to dig precise and level
-                                foundation trenches, ensuring that the structural integrity of your project is maintained. Our expertise
-                                in soil analysis and site assessment ensures that the excavation process is tailored to the specific
-                                conditions of your site, minimizing risks and potential issues.
-                            </p>
-                            <Header className="drainage-subheader" as="h3">Trenching and Utility Installation</Header>
-                            <p className="drainage-text">
-                                Trenching is a key aspect of excavation services, necessary for the installation of utilities such as water
-                                lines, sewage systems, electrical conduits, and telecommunications cables. Our trenching services are conducted
-                                with meticulous attention to detail, ensuring that trenches are dug to the correct depth and width to accommodate
-                                the required utilities. We also prioritize safety and regulatory compliance, making sure that all excavations adhere
-                                to local codes and standards. Our efficient trenching solutions help facilitate smooth utility installation and
-                                integration into your project.
-                            </p>
                         </div>
                         <div className="drainage-content-col">
                             <Header className="drainage-subheader" as="h3">Site Preparation and Grading</Header>
