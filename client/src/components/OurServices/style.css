@@ -1,6 +1,6 @@
 #our-services-container {
-    width: 60%;
-    margin: 2% 20%;
+    width: 80%;
+    margin: 2% 10%;
 }
 
 #our-services {
@@ -11,10 +11,19 @@
 }
 
 .service-col {
-    grid-column: span 4;
+    grid-column: span 2;
     /* animation: flip-back 1s;
     animation-fill-mode: forwards; */
 }
+
+.service-col:nth-child(1) {
+    grid-column: 2 / span 2;
+}
+
+.service-col:nth-child(6) {
+    grid-column: 2 / span 2;
+}
+
 
 /* .service-img:hover {
     animation: flip-image 1s;
