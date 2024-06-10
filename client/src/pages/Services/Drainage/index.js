@@ -22,11 +22,11 @@ const Drainage = (props) => {
                     </p>
                     <div id="drainage-content-container">
                         <div className="drainage-content-col">
-                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/foundation-excavation.jpg"} />
+                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/drainage-install.webp"} />
                         </div>
                         <div className="drainage-content-col">
-                            <Header className="drainage-subheader" as="h3">Key Components of Drainage Services</Header>
-                            <List id="drainage-list">
+                            <Header className="drainage-subheader" id="drainage-key-components" as="h3">Key Components of Drainage Services</Header>
+                            <List className="drainage-list">
                                 <List.Item className="drainage-list-item">
                                     <List.Header className="drainage-list-header">
                                         <b className="drainage-bold-text">1. Installation of Drainage Systems:</b>
@@ -59,83 +59,88 @@ const Drainage = (props) => {
                             </List>
                         </div>
                         <div className="drainage-content-col">
-                            <Header className="drainage-subheader" as="h3">Site Preparation and Grading</Header>
+                            <Header className="drainage-subheader" as="h3">Trench Services</Header>
                             <p className="drainage-text">
-                                Effective site preparation is crucial for the success of any construction or landscaping project. Our excavation services
-                                include clearing and grading the site to create a suitable working environment. This involves removing unwanted vegetation,
-                                debris, and existing structures, as well as leveling the ground to meet the project’s specifications. Proper site preparation
-                                not only ensures a solid foundation for subsequent construction activities but also improves drainage and prevents future issues
-                                such as soil erosion and water pooling.
+                                Trench services are crucial for the installation and maintenance of underground utilities and infrastructure. Trenches are excavated
+                                to lay down pipes, cables, and other utility lines for water, gas, electricity, and telecommunications services. This process requires
+                                precision and expertise to ensure safe and efficient excavation, minimizing disruption to the surrounding environment and existing
+                                infrastructure.
                             </p>
-                            <Header className="drainage-subheader" as="h3">Land Clearing and Demolition</Header>
+                            <Header className="drainage-subheader" as="h3">Maintenance and Inspection</Header>
                             <p className="drainage-text">
-                                In addition to excavation, we offer comprehensive land clearing and demolition services. Whether you need to clear a site for new
-                                construction or remove old structures, our team can handle the job with precision and care. We use state-of-the-art equipment to
-                                safely and efficiently remove trees, shrubs, and debris, as well as demolish existing buildings and other structures. Our environmentally
-                                responsible approach ensures that all materials are disposed of properly, with a focus on recycling and minimizing waste.
+                                Regular maintenance and inspection are crucial to ensure the integrity of buried utilities. Routine inspections help identify potential
+                                issues early, allowing for timely repairs and preventing costly damage or service interruptions.
                             </p>
                         </div>
                         <div className="drainage-content-col">
-                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-utility.jpg"} />
+                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp"} />
                         </div>
                         <div className="drainage-content-col">
-                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/demolition-land-clearing.jpg"} />
+                            <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trench-planning.jpg"} />
                         </div>
                         <div className="drainage-content-col">
-                            <Header className="drainage-subheader" as="h3">Excavation for Landscaping Projects</Header>
-                            <p className="drainage-text">
-                                Excavation is also integral to landscaping projects, from creating ponds and water features to shaping terrain and installing retaining
-                                walls. Our team works closely with landscape architects and designers to execute their visions accurately and effectively. We provide
-                                detailed excavation services that enhance the aesthetic and functional aspects of your outdoor space, ensuring that all elements are
-                                properly integrated and supported.
-                            </p>
-                            <Header className="drainage-header" as="h1">Why Choose Us?</Header>
-                            <List id="drainage-list">
+                            <Header className="drainage-subheader" id="drainage-trench-steps" as="h3">Steps in Trench Services</Header>
+                            <List className="drainage-list">
                                 <List.Item className="drainage-list-item">
-                                    <List.Icon className="drainage-list-icon" name="check circle" />
-                                    <List.Content>
-                                        <List.Description className="drainage-list-desc">
-                                            <b className="drainage-bold-text">Expertise and Experience:</b> Skilled team with extensive experience in a wide range of excavation projects.
-                                        </List.Description>
-                                    </List.Content>
+                                    <List.Header className="drainage-list-header">
+                                        <b className="drainage-bold-text">1. Planning and Site Assessment:</b>
+                                    </List.Header>
+                                    <List bulleted className="drainage-sub-list">
+                                        <List.Item className="drainage-sub-list-item">
+                                            Determining the most suitable path for the trench.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            Employs pipes and underground systems to manage groundwater.
+                                        </List.Item>
+                                    </List>
                                 </List.Item>
                                 <List.Item className="drainage-list-item">
-                                    <List.Icon className="drainage-list-icon" name="check circle" />
-                                    <List.Content>
-                                        <List.Description className="drainage-list-desc">
-                                            <b className="drainage-bold-text">Advanced Equipment:</b> Utilization of modern machinery for precise and efficient excavation.
-                                        </List.Description>
-                                    </List.Content>
+                                    <List.Header className="drainage-list-header">
+                                        <b className="drainage-bold-text">2. Excavation:</b>
+                                    </List.Header>
+                                    <List bulleted className="drainage-sub-list">
+                                        <List.Item className="drainage-sub-list-item">
+                                            Using specialized equipment like trenchers, backhoes, and excavators.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            Ensuring proper depth and width based on utility type and local regulations.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            Implementing shoring and safety measures to prevent trench collapse.
+                                        </List.Item>
+                                    </List>
                                 </List.Item>
                                 <List.Item className="drainage-list-item">
-                                    <List.Icon className="drainage-list-icon" name="check circle" />
-                                    <List.Content>
-                                        <List.Description className="drainage-list-desc">
-                                            <b className="drainage-bold-text">Customized Solutions:</b> Tailored services to meet the unique needs of each project.
-                                        </List.Description>
-                                    </List.Content>
+                                    <List.Header className="drainage-list-header">
+                                        <b className="drainage-bold-text">3. Utility Installation:</b>
+                                    </List.Header>
+                                    <List bulleted className="drainage-sub-list">
+                                        <List.Item className="drainage-sub-list-item">
+                                            Laying and securing water pipes, sewer lines, electrical conduits, or communication cables.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            Backfilling and compacting the trench to restore the ground surface.
+                                        </List.Item>
+                                    </List>
                                 </List.Item>
                                 <List.Item className="drainage-list-item">
-                                    <List.Icon className="drainage-list-icon" name="check circle" />
-                                    <List.Content>
-                                        <List.Description className="drainage-list-desc">
-                                            <b className="drainage-bold-text">Safety and Compliance:</b> Adherence to all safety standards and regulatory requirements.
-                                        </List.Description>
-                                    </List.Content>
-                                </List.Item>
-                                <List.Item className="drainage-list-item">
-                                    <List.Icon className="drainage-list-icon" name="check circle" />
-                                    <List.Content>
-                                        <List.Description className="drainage-list-desc">
-                                            <b className="drainage-bold-text">Comprehensive Services:</b> From foundation excavation and trenching to land clearing and landscaping.
-                                        </List.Description>
-                                    </List.Content>
+                                    <List.Header className="drainage-list-header">
+                                        <b className="drainage-bold-text">4. Quality Control:</b>
+                                    </List.Header>
+                                    <List bulleted className="drainage-sub-list">
+                                        <List.Item className="drainage-sub-list-item">
+                                            Ensuring installed utilities function correctly.
+                                        </List.Item>
+                                        <List.Item className="drainage-sub-list-item">
+                                            Meeting all safety and regulatory standards.
+                                        </List.Item>
+                                    </List>
                                 </List.Item>
                             </List>
                         </div>
                     </div>
                     <p className="excavation-text" id="excavation-last-line">
-                        Transform your site with our professional excavation services. Contact us today to discuss your project and discover how we can provide the expert excavation solutions you need to ensure success.
+                        By choosing our drainage and trench services, you ensure the longevity and reliability of your infrastructure. Contact us today for expert solutions tailored to your needs!
                     </p>
                     <div id="excavation-btn-container">
                         <Button className="excavation-btn" as={Link} to="/gallery">Gallery</Button>

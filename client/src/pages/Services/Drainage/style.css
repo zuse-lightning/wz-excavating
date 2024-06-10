@@ -45,8 +45,12 @@
 .drainage-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    width: 90%!important;
+    /* width: 90%!important; */ 
     margin: 2% 5% 1%!important;
+}
+
+#drainage-key-components, #drainage-trench-steps {
+    margin: 0 0 4%!important;
 }
 
 .drainage-text {
@@ -57,24 +61,24 @@
     margin: 0 5%;
 }
 
-#drainage-list {
-    width: 90%;
-    margin: 5% 5% 0;
+.drainage-list {
+    width: 80%;
+    margin: 5% 10% 0!important;
 }
 
 .drainage-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #482b7b;
     margin-bottom: 2%;
 }
 .drainage-sub-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: #000;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
 
 }
 
