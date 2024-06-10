@@ -10,16 +10,15 @@ const Driveways = (props) => {
         <div id="driveways-container">
             <Image id="driveways-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/driveways.png"} fluid />
             <div id="driveways">
-                <Header className="driveways-header" as="h1">Driveways</Header>
-                <Header className="driveways-subheader" as="h3">Lawn Maintenance</Header>
+                <Header className="driveways-header" as="h1">Driveway Services</Header>
+                <Header className="driveways-subheader" as="h3">Driveway Design and Installation</Header>
                 <p className="driveways-text">
-                    A well-maintained lawn is the cornerstone of a beautiful landscape, enhancing
-                    the aesthetic appeal and value of your property. Our lawn maintenance services
-                    are designed to keep your lawn healthy, lush, and vibrant year-round. These
-                    services include routine mowing, trimming, edging, and debris removal to ensure
-                    a neat and manicured appearance. We use professional-grade equipment and techniques
-                    to provide precise and efficient care, tailored to the specific needs of your lawn
-                    and its growth patterns.
+                    A well-designed and professionally installed driveway not only enhances the curb appeal 
+                    of your property but also provides a durable and functional surface for daily use. Our 
+                    driveway design and installation services are tailored to meet the unique needs of 
+                    residential, commercial, and industrial properties, ensuring an aesthetically pleasing 
+                    and long-lasting solution. We work with a variety of materials and styles to create 
+                    driveways that complement your property and meet your specific requirements.
                 </p>
                 <div id="driveways-content-container">
                     <div className="driveways-content-col">
@@ -29,41 +28,36 @@ const Driveways = (props) => {
                         <Header className="driveways-subheader" id="driveways-key-components" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Mowing:</b> Regular mowing is essential to keep the grass at an optimal height, promoting healthy growth and a uniform look. Our team ensures that your lawn is mowed with precision, avoiding scalping and uneven patches.
+                                <b className="driveways-bold-text">Custom Design:</b> Our experts work with you to design a driveway that fits your aesthetic preferences and functional needs. We consider factors such as property layout, traffic patterns, and landscape integration to create a design that enhances your property's overall appearance.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Trimming and Edging:</b> Trimming around borders, flower beds, and trees, along with crisp edging along walkways and driveways, gives your lawn a polished finish and prevents overgrowth.
+                                <b className="driveways-bold-text">Material Options:</b> We offer a range of materials including asphalt, concrete, pavers, and gravel, each with its own benefits. Asphalt and concrete provide durable and low-maintenance options, while pavers offer flexibility in design and aesthetics. Gravel driveways are an economical choice that also provides good drainage.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Debris Removal:</b> Removing leaves, twigs, and other debris maintains the lawn’s health and appearance by preventing the buildup of thatch and promoting better airflow and sunlight penetration.
+                                <b className="driveways-bold-text">Professional Installation:</b> Our installation process involves site preparation, excavation, and the precise laying of materials to ensure a stable and even surface. We pay attention to details like grading and drainage to prevent water accumulation and extend the lifespan of your driveway.
                             </List.Item>
                         </List>
                     </div>
                     <div className="driveways-content-col">
-                        <Header className="driveways-subheader" as="h3">Lawn Health Care</Header>
+                        <Header className="driveways-subheader" as="h3">Driveway Maintenance and Repair</Header>
                         <p className="driveways-text">
-                            Healthy lawns are more than just a matter of aesthetics; they play a crucial role 
-                            in reducing soil erosion, filtering rainwater, and improving air quality. Our lawn 
-                            health care services focus on maintaining the vitality and resilience of your grass 
-                            through fertilization, weed control, aeration, and pest management. These services 
-                            are customized to address the specific conditions of your lawn, ensuring it thrives 
-                            in its environment.
+                            Regular maintenance and timely repairs are crucial to keep your driveway in excellent 
+                            condition and extend its lifespan. Our driveway maintenance and repair services help 
+                            prevent deterioration and address any issues before they become major problems, ensuring 
+                            a safe and attractive surface for your vehicles.
                         </p>
                     </div>
                     <div className="driveways-content-col">
                         <Header className="driveways-subheader" id="driveways-trench-steps" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Fertilization:</b> We apply high-quality, balanced fertilizers to provide essential nutrients, promoting strong root development and vibrant green growth. Our approach is tailored to the specific nutrient needs of your lawn, ensuring it receives the right balance of nitrogen, phosphorus, and potassium.
+                                <b className="driveways-bold-text">Routine Maintenance:</b> We provide regular maintenance services including sealing, cleaning, and minor repairs to protect your driveway from weathering, oil stains, and other common issues. Sealing helps to prevent water infiltration and UV damage, while cleaning removes debris and stains.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Weed Control:</b> Effective weed control prevents unwanted plants from competing with your grass for nutrients and water. We use selective herbicides that target weeds without harming your lawn, keeping it healthy and free of invasive species.
+                                <b className="driveways-bold-text">Crack and Pothole Repair:</b> Addressing cracks and potholes promptly prevents them from expanding and causing more extensive damage. We use high-quality materials and techniques to fill and seal cracks and repair potholes, restoring the integrity and appearance of your driveway.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Aeration:</b> Aeration involves perforating the soil to alleviate compaction and improve the movement of air, water, and nutrients to the roots. This process enhances the lawn’s ability to absorb essential resources and promotes deeper root growth.
-                            </List.Item>
-                            <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Pest Management:</b> We identify and treat common lawn pests such as grubs, chinch bugs, and armyworms, preventing damage to your grass and maintaining its overall health.
+                                <b className="driveways-bold-text">Resurfacing and Overlay:</b> For driveways with more extensive wear and tear, resurfacing and overlay services provide a cost-effective way to renew the surface without the need for a full replacement. We apply a new layer of material over the existing surface, improving durability and appearance.
                             </List.Item>
                         </List>
                     </div>
@@ -71,13 +65,12 @@ const Driveways = (props) => {
                         <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/weed-control.jpg"} />
                     </div>
                     <div className="driveways-content-col">
-                        <Header className="driveways-subheader" as="h3">Seasonal Services</Header>
+                        <Header className="driveways-subheader" as="h3">Driveway Replacement and Upgrades</Header>
                         <p className="driveways-text">
-                            Seasonal changes can have a significant impact on your lawn’s health and appearance. Our 
-                            seasonal lawn care services are designed to address the unique challenges posed by each 
-                            season, ensuring your lawn remains robust and attractive throughout the year. From spring 
-                            rejuvenation to winter preparation, our services are tailored to meet the needs of your 
-                            lawn during each stage of the annual growth cycle.
+                            Over time, driveways can suffer from significant wear, settling, and structural issues that 
+                            necessitate replacement or major upgrades. Our driveway replacement and upgrade services 
+                            provide comprehensive solutions to replace old, damaged driveways or upgrade to more modern 
+                            and functional designs.
                         </p>
                     </div>
                     <div className="driveways-content-col">
@@ -87,24 +80,22 @@ const Driveways = (props) => {
                         <Header className="driveways-subheader" id="driveways-trench-steps" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Spring Services:</b> Spring is the time to rejuvenate your lawn after the winter months. Our services include dethatching to remove dead grass and debris, reseeding to fill in bare spots, and applying pre-emergent herbicides to prevent weed growth.
+                                <b className="driveways-bold-text">Full Replacement:</b> When a driveway is beyond repair, a full replacement may be necessary. We remove the old driveway, prepare the site, and install a new driveway using your choice of materials. This ensures a fresh start and a long-lasting solution that meets current standards and your needs.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Summer Services:</b> Summer heat can stress your lawn, making regular watering, pest control, and mowing at the right height critical for maintaining its health. We offer irrigation audits to ensure efficient water use and provide treatments to manage heat-related stress.
+                                <b className="driveways-bold-text">Upgrades and Extensions:</b> We offer upgrades such as adding decorative elements, improving drainage, or extending the driveway to accommodate more vehicles. These enhancements not only improve the functionality of your driveway but also increase the value and appeal of your property.
                             </List.Item>
                             <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Fall Services:</b> Fall is the ideal time for aeration, overseeding, and fertilization to prepare your lawn for winter. These treatments help to strengthen the grass and ensure it recovers quickly in the spring.
-                            </List.Item>
-                            <List.Item className="driveways-list-item">
-                                <b className="driveways-bold-text">Winter Services:</b> Preparing your lawn for the winter involves applying winterizing fertilizers and addressing any lingering issues. Our winter services also include leaf removal and setting your lawn up for a healthy start in the coming spring.
+                                <b className="driveways-bold-text">Permeable Solutions:</b> For environmentally conscious clients, we offer permeable driveway solutions that allow water to filter through the surface, reducing runoff and promoting groundwater recharge. Options include permeable pavers and gravel, which provide a sustainable and eco-friendly alternative to traditional driveways.
                             </List.Item>
                         </List>
                     </div>
                 </div>
                 <p className="driveways-text" id="driveways-last-line">
-                    For a lush, healthy lawn that enhances the beauty and value of your property, our comprehensive lawn 
-                    care services provide tailored solutions to meet your needs. Contact us today to keep your lawn thriving 
-                    year-round!
+                    Enhance the functionality and beauty of your property with our comprehensive driveway services. 
+                    Whether you need design, installation, maintenance, or upgrades, we provide tailored solutions 
+                    to meet your needs. Contact us today to transform your driveway into a durable and attractive 
+                    feature of your landscape!
                 </p>
                 <div id="driveways-btn-container">
                     <Button className="driveways-btn" as={Link} to="/gallery">Gallery</Button>
