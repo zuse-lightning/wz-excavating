@@ -24,20 +24,24 @@
     grid-template-columns: repeat(12, 1fr);
     column-gap: 100px;
     row-gap: 20px;
-    width: 90%;
-    margin: 2% 5%;
+    width: 100%;
+    margin: 2% 0%;
 }
 
-.patios-content-col:nth-child(1), .patios-content-col:nth-child(4),
-.patios-content-col:nth-child(5), .patios-content-col:nth-child(8),
-.patios-content-col:nth-child(9) {
+.patios-content-col:nth-child(1), .patios-content-col:nth-child(4), 
+.patios-content-col:nth-child(7), .patios-content-col:nth-child(9) {
+    grid-column: 2 / span 5;
+}
+
+.patios-content-col:nth-child(2),
+.patios-content-col:nth-child(5),
+.patios-content-col:nth-child(8) {
     grid-column: span 5;
+    margin-top: 10%;
 }
 
-.patios-content-col:nth-child(2), .patios-content-col:nth-child(3),
-.patios-content-col:nth-child(6), .patios-content-col:nth-child(7),
-.patios-content-col:nth-child(10) {
-    grid-column: span 7;
+.patios-content-col:nth-child(3), .patios-content-col:nth-child(6) {
+    grid-column: span 12;
 }
 
 .patios-content-img {

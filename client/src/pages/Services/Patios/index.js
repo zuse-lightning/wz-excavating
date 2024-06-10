@@ -71,9 +71,6 @@ const Patios = (props) => {
                             <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp"} />
                         </div>
                         <div className="patios-content-col">
-                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trench-planning.jpg"} />
-                        </div>
-                        <div className="patios-content-col">
                             <Header className="patios-subheader" id="patios-trench-steps" as="h3">Key Services:</Header>
                             <List className="patios-list">
                                 <List.Item className="patios-list-item">
@@ -115,9 +112,6 @@ const Patios = (props) => {
                                 construction, and maintenance, ensuring strong, durable, and aesthetically integrated
                                 structures that add both functional and visual value to your outdoor space.
                             </p>
-                        </div>
-                        <div className="patios-content-col">
-                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp"} />
                         </div>
                         <div className="patios-content-col">
                             <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trench-planning.jpg"} />
