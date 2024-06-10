@@ -1,0 +1,126 @@
+#lawn-care-container {
+    background-color: #482b7b;
+}
+
+#lawn-care-banner {
+    height: 700px;
+    object-fit: cover;
+}
+
+#lawn-care {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+.lawn-care-header {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b;
+}
+
+#lawn-care-content-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 100px;
+    row-gap: 20px;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.lawn-care-content-col:nth-child(1), .lawn-care-content-col:nth-child(4), 
+.lawn-care-content-col:nth-child(7), .lawn-care-content-col:nth-child(9) {
+    grid-column: 2 / span 5;
+}
+
+.lawn-care-content-col:nth-child(2),
+.lawn-care-content-col:nth-child(5),
+.lawn-care-content-col:nth-child(8) {
+    grid-column: span 5;
+}
+
+.lawn-care-content-col:nth-child(2),
+.lawn-care-content-col:nth-child(4),
+.lawn-care-content-col:nth-child(8) {
+    margin-top: 10%;
+}
+
+.lawn-care-content-col:nth-child(3), .lawn-care-content-col:nth-child(6) {
+    grid-column: span 12;
+}
+
+.lawn-care-content-img {
+    padding: 10% 0;
+}
+
+.lawn-care-subheader {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b!important;
+    /* width: 90%!important; */ 
+    margin: 2% 5% 1%!important;
+}
+
+#lawn-care-key-components, #lawn-care-trench-steps {
+    margin: 0 0 4%!important;
+}
+
+.lawn-care-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.lawn-care-list {
+    width: 80%;
+    margin: 5% 10% 0!important;
+}
+
+.lawn-care-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #482b7b;
+    margin-bottom: 2%;
+}
+.lawn-care-sub-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 0%;
+
+}
+
+.lawn-care-bold-text {
+    color: #482b7b;
+}
+
+#lawn-care-btn-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.lawn-care-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 15%!important;
+    border: 1px solid #fff!important;
+    margin: 0 1%!important;
+    transition: 0.5s!important;
+}
+
+.lawn-care-btn:hover {
+    background-color: #fff!important;
+    color: #482b7b!important;
+    border: 1px solid #482b7b!important;
+    transition: 0.5s!important;
+}
+
+#lawn-care-last-line {
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 2%;
+    text-align: center;
+}

@@ -7,163 +7,112 @@ import "./style.css";
 const LawnCare = (props) => {
     return (
         <>
-        <div id="lawn-care-container">
-            <Image id="lawn-care-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png"} fluid />
-            <div id="lawn-care">
-                <Header className="lawn-care-header" as="h1">Lawn Care</Header>
-                <Header className="lawn-care-subheader" as="h3">Patios Services</Header>
-                <p className="lawn-care-text">
-                    Patios are essential for creating versatile outdoor living spaces, perfect for relaxation, dining, and entertaining.
-                    Our patio services include design, installation, and maintenance, ensuring you get a durable and beautiful outdoor area
-                    that enhances your property's appeal and functionality. We offer a range of styles and materials, providing a personalized
-                    touch that complements your home's architecture and your personal taste.
-                </p>
-                <div id="lawn-care-content-container">
-                    <div className="lawn-care-content-col">
-                        <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg"} />
+            <div id="lawn-care-container">
+                <Image id="lawn-care-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png"} fluid />
+                <div id="lawn-care">
+                    <Header className="lawn-care-header" as="h1">Lawn Care</Header>
+                    <Header className="lawn-care-subheader" as="h3">Lawn Maintenance</Header>
+                    <p className="lawn-care-text">
+                        A well-maintained lawn is the cornerstone of a beautiful landscape, enhancing
+                        the aesthetic appeal and value of your property. Our lawn maintenance services
+                        are designed to keep your lawn healthy, lush, and vibrant year-round. These
+                        services include routine mowing, trimming, edging, and debris removal to ensure
+                        a neat and manicured appearance. We use professional-grade equipment and techniques
+                        to provide precise and efficient care, tailored to the specific needs of your lawn
+                        and its growth patterns.
+                    </p>
+                    <div id="lawn-care-content-container">
+                        <div className="lawn-care-content-col">
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg"} />
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Header className="lawn-care-subheader" id="lawn-care-key-components" as="h3">Key Services:</Header>
+                            <List bulleted className="lawn-care-list">
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Mowing:</b> Regular mowing is essential to keep the grass at an optimal height, promoting healthy growth and a uniform look. Our team ensures that your lawn is mowed with precision, avoiding scalping and uneven patches.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Trimming and Edging:</b> Trimming around borders, flower beds, and trees, along with crisp edging along walkways and driveways, gives your lawn a polished finish and prevents overgrowth.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Debris Removal:</b> Removing leaves, twigs, and other debris maintains the lawn’s health and appearance by preventing the buildup of thatch and promoting better airflow and sunlight penetration.
+                                </List.Item>
+                            </List>
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Header className="lawn-care-subheader" as="h3">Lawn Health Care</Header>
+                            <p className="lawn-care-text">
+                                Healthy lawns are more than just a matter of aesthetics; they play a crucial role 
+                                in reducing soil erosion, filtering rainwater, and improving air quality. Our lawn 
+                                health care services focus on maintaining the vitality and resilience of your grass 
+                                through fertilization, weed control, aeration, and pest management. These services 
+                                are customized to address the specific conditions of your lawn, ensuring it thrives 
+                                in its environment.
+                            </p>
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
+                            <List bulleted className="lawn-care-list">
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Fertilization:</b> We apply high-quality, balanced fertilizers to provide essential nutrients, promoting strong root development and vibrant green growth. Our approach is tailored to the specific nutrient needs of your lawn, ensuring it receives the right balance of nitrogen, phosphorus, and potassium.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Weed Control:</b> Effective weed control prevents unwanted plants from competing with your grass for nutrients and water. We use selective herbicides that target weeds without harming your lawn, keeping it healthy and free of invasive species.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Aeration:</b> Aeration involves perforating the soil to alleviate compaction and improve the movement of air, water, and nutrients to the roots. This process enhances the lawn’s ability to absorb essential resources and promotes deeper root growth.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Pest Management:</b> We identify and treat common lawn pests such as grubs, chinch bugs, and armyworms, preventing damage to your grass and maintaining its overall health.
+                                </List.Item>
+                            </List>
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/walkway-installation.jpg"} />
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Header className="lawn-care-subheader" as="h3">Seasonal Services</Header>
+                            <p className="lawn-care-text">
+                                Seasonal changes can have a significant impact on your lawn’s health and appearance. Our 
+                                seasonal lawn care services are designed to address the unique challenges posed by each 
+                                season, ensuring your lawn remains robust and attractive throughout the year. From spring 
+                                rejuvenation to winter preparation, our services are tailored to meet the needs of your 
+                                lawn during each stage of the annual growth cycle.
+                            </p>
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/retaining-wall-installation.jpg"} />
+                        </div>
+                        <div className="lawn-care-content-col">
+                            <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
+                            <List bulleted className="lawn-care-list">
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Spring Services:</b> Spring is the time to rejuvenate your lawn after the winter months. Our services include dethatching to remove dead grass and debris, reseeding to fill in bare spots, and applying pre-emergent herbicides to prevent weed growth.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Summer Services:</b> Summer heat can stress your lawn, making regular watering, pest control, and mowing at the right height critical for maintaining its health. We offer irrigation audits to ensure efficient water use and provide treatments to manage heat-related stress.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Fall Services:</b> Fall is the ideal time for aeration, overseeding, and fertilization to prepare your lawn for winter. These treatments help to strengthen the grass and ensure it recovers quickly in the spring.
+                                </List.Item>
+                                <List.Item className="lawn-care-list-item">
+                                    <b className="lawn-care-bold-text">Winter Services:</b> Preparing your lawn for the winter involves applying winterizing fertilizers and addressing any lingering issues. Our winter services also include leaf removal and setting your lawn up for a healthy start in the coming spring.
+                                </List.Item>
+                            </List>
+                        </div>
                     </div>
-                    <div className="lawn-care-content-col">
-                        <Header className="lawn-care-subheader" id="lawn-care-key-components" as="h3">Key Services:</Header>
-                        <List className="lawn-care-list">
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">1. Design and Installation:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Custom Design:</b> We create a patio layout that meets your needs and complements your landscape.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Material Selection:</b> Choose from concrete, pavers, stone, or brick.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Professional Installation:</b> We ensure proper grading and drainage for longevity.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">2. Maintenance and Repair:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Regular Maintenance:</b> Power washing, resealing, and surface cleaning.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Repairs:</b> Fixing cracks and loose materials to maintain aesthetics and functionality.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Renovation:</b> Updating older patios to restore charm and usability.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                        </List>
+                    <p className="lawn-care-text" id="lawn-care-last-line">
+                        For a lush, healthy lawn that enhances the beauty and value of your property, our comprehensive lawn 
+                        care services provide tailored solutions to meet your needs. Contact us today to keep your lawn thriving 
+                        year-round!
+                    </p>
+                    <div id="lawn-care-btn-container">
+                        <Button className="lawn-care-btn" as={Link} to="/gallery">Gallery</Button>
+                        <Button className="lawn-care-btn" as={Link} to="/quotes">Get A Quote</Button>
                     </div>
-                    <div className="lawn-care-content-col">
-                        <Header className="lawn-care-subheader" as="h3">Walks Services</Header>
-                        <p className="lawn-care-text">
-                            Walkways are crucial for navigating outdoor spaces and enhancing the flow of your landscape. Our walks services include design, installation,
-                            and maintenance, providing safe and attractive pathways through gardens, yards, and commercial areas. We focus on durability and aesthetic appeal,
-                            ensuring your walkways are both functional and visually pleasing.
-                        </p>
-                    </div>
-                    <div className="lawn-care-content-col">
-                        <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
-                        <List className="lawn-care-list">
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">1. Design and Installation:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Custom Layout:</b> We design walkways that seamlessly connect different areas.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Material Options:</b> Choose from concrete, gravel, stone, or pavers.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Expert Installation:</b> Proper excavation and base preparation for stability.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">2. Maintenance and Repair:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Routine Cleaning:</b> Removing debris, moss, and algae for safety.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Repairs:</b> Addressing uneven surfaces, cracks, and settling issues to maintain safety and appearance.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                        </List>
-                    </div>
-                    <div className="lawn-care-content-col">
-                        <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/walkway-installation.jpg"} />
-                    </div>
-                    <div className="lawn-care-content-col">
-                        <Header className="lawn-care-subheader" as="h3">Retaining Walls Services</Header>
-                        <p className="lawn-care-text">
-                            Retaining walls are vital for managing elevation changes, preventing soil erosion,
-                            and creating level areas in landscapes. Our retaining walls services cover design,
-                            construction, and maintenance, ensuring strong, durable, and aesthetically integrated
-                            structures that add both functional and visual value to your outdoor space.
-                        </p>
-                    </div>
-                    <div className="lawn-care-content-col">
-                        <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/retaining-wall-installation.jpg"} />
-                    </div>
-                    <div className="lawn-care-content-col">
-                        <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
-                        <List className="lawn-care-list">
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">1. Design and Installation:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Site Assessment:</b> Understanding soil mechanics and drainage needs.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Material Selection:</b> Options include concrete, stone, or timber.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Professional Construction:</b> Ensuring proper drainage to prevent water pressure build-up.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                            <List.Item className="lawn-care-list-item">
-                                <List.Header className="lawn-care-list-header">
-                                    <b className="lawn-care-bold-text">2. Maintenance and Repair:</b>
-                                </List.Header>
-                                <List bulleted className="lawn-care-sub-list">
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Regular Inspections:</b> Checking for cracks, bulging, or tilting.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Cleaning and Reinforcement:</b> Maintaining structural integrity and addressing drainage problems.
-                                    </List.Item>
-                                    <List.Item className="lawn-care-sub-list-item">
-                                        <b className="lawn-care-bold-text">Timely Repairs:</b> Preventing small issues from becoming major structural problems.
-                                    </List.Item>
-                                </List>
-                            </List.Item>
-                        </List>
-                    </div>
-                </div>
-                <p className="lawn-care-text" id="lawn-care-last-line">
-                    Transform your outdoor spaces with our comprehensive patios, walks, and retaining walls services. Contact us today to create a stunning and functional landscape tailored to your needs!
-                </p>
-                <div id="lawn-care-btn-container">
-                    <Button className="lawn-care-btn" as={Link} to="/gallery">Gallery</Button>
-                    <Button className="lawn-care-btn" as={Link} to="/quotes">Get A Quote</Button>
                 </div>
             </div>
-        </div>
-    </>
+        </>
     );
 };
 
