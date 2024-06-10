@@ -20,7 +20,7 @@ const Patios = (props) => {
                     </p>
                     <div id="patios-content-container">
                         <div className="patios-content-col">
-                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/drainage-install.webp"} />
+                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
                             <Header className="patios-subheader" id="patios-key-components" as="h3">Key Services:</Header>
@@ -68,7 +68,7 @@ const Patios = (props) => {
                             </p>
                         </div>
                         <div className="patios-content-col">
-                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp"} />
+                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/walkway-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
                             <Header className="patios-subheader" id="patios-trench-steps" as="h3">Key Services:</Header>
@@ -114,7 +114,7 @@ const Patios = (props) => {
                             </p>
                         </div>
                         <div className="patios-content-col">
-                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trench-planning.jpg"} />
+                            <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/retaining-wall-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
                             <Header className="patios-subheader" id="patios-trench-steps" as="h3">Key Services:</Header>
