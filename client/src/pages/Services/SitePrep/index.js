@@ -1,4 +1,6 @@
 import React from "react";
+import { Button, Header, Image, List } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -21,9 +23,6 @@ const SitePrep = (props) => {
                     </p>
                     <div id="site-prep-content-container">
                         <div className="site-prep-content-col">
-                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/lawn-maintenance.jpg"} />
-                        </div>
-                        <div className="site-prep-content-col">
                             <Header className="site-prep-subheader" id="site-prep-key-components" as="h3">Key Services:</Header>
                             <List bulleted className="site-prep-list">
                                 <List.Item className="site-prep-list-item">
@@ -38,15 +37,21 @@ const SitePrep = (props) => {
                             </List>
                         </div>
                         <div className="site-prep-content-col">
+                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/lawn-maintenance.jpg"} />
+                        </div>
+                        <div className="site-prep-content-col">
                             <Header className="site-prep-subheader" as="h3">Lawn Health Care</Header>
                             <p className="site-prep-text">
-                                Healthy lawns are more than just a matter of aesthetics; they play a crucial role 
-                                in reducing soil erosion, filtering rainwater, and improving air quality. Our lawn 
-                                health care services focus on maintaining the vitality and resilience of your grass 
-                                through fertilization, weed control, aeration, and pest management. These services 
-                                are customized to address the specific conditions of your lawn, ensuring it thrives 
+                                Healthy lawns are more than just a matter of aesthetics; they play a crucial role
+                                in reducing soil erosion, filtering rainwater, and improving air quality. Our lawn
+                                health care services focus on maintaining the vitality and resilience of your grass
+                                through fertilization, weed control, aeration, and pest management. These services
+                                are customized to address the specific conditions of your lawn, ensuring it thrives
                                 in its environment.
                             </p>
+                        </div>
+                        <div className="site-prep-content-col">
+                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/weed-control.jpg"} />
                         </div>
                         <div className="site-prep-content-col">
                             <Header className="site-prep-subheader" id="site-prep-trench-steps" as="h3">Key Services:</Header>
@@ -66,20 +71,14 @@ const SitePrep = (props) => {
                             </List>
                         </div>
                         <div className="site-prep-content-col">
-                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/weed-control.jpg"} />
-                        </div>
-                        <div className="site-prep-content-col">
                             <Header className="site-prep-subheader" as="h3">Seasonal Services</Header>
                             <p className="site-prep-text">
-                                Seasonal changes can have a significant impact on your lawn’s health and appearance. Our 
-                                seasonal lawn care services are designed to address the unique challenges posed by each 
-                                season, ensuring your lawn remains robust and attractive throughout the year. From spring 
-                                rejuvenation to winter preparation, our services are tailored to meet the needs of your 
+                                Seasonal changes can have a significant impact on your lawn’s health and appearance. Our
+                                seasonal lawn care services are designed to address the unique challenges posed by each
+                                season, ensuring your lawn remains robust and attractive throughout the year. From spring
+                                rejuvenation to winter preparation, our services are tailored to meet the needs of your
                                 lawn during each stage of the annual growth cycle.
                             </p>
-                        </div>
-                        <div className="site-prep-content-col">
-                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
                         </div>
                         <div className="site-prep-content-col">
                             <Header className="site-prep-subheader" id="site-prep-trench-steps" as="h3">Key Services:</Header>
@@ -98,10 +97,13 @@ const SitePrep = (props) => {
                                 </List.Item>
                             </List>
                         </div>
+                        <div className="site-prep-content-col">
+                            <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
+                        </div>
                     </div>
                     <p className="site-prep-text" id="site-prep-last-line">
-                        For a lush, healthy lawn that enhances the beauty and value of your property, our comprehensive lawn 
-                        care services provide tailored solutions to meet your needs. Contact us today to keep your lawn thriving 
+                        For a lush, healthy lawn that enhances the beauty and value of your property, our comprehensive lawn
+                        care services provide tailored solutions to meet your needs. Contact us today to keep your lawn thriving
                         year-round!
                     </p>
                     <div id="site-prep-btn-container">
