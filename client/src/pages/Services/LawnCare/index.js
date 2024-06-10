@@ -8,7 +8,7 @@ const LawnCare = (props) => {
     return (
         <>
             <div id="lawn-care-container">
-                <Image id="lawn-care-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png"} fluid />
+                <Image id="lawn-care-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/lawn-care.png"} fluid />
                 <div id="lawn-care">
                     <Header className="lawn-care-header" as="h1">Lawn Care</Header>
                     <Header className="lawn-care-subheader" as="h3">Lawn Maintenance</Header>
@@ -23,7 +23,7 @@ const LawnCare = (props) => {
                     </p>
                     <div id="lawn-care-content-container">
                         <div className="lawn-care-content-col">
-                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg"} />
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/lawn-maintenance.jpg"} />
                         </div>
                         <div className="lawn-care-content-col">
                             <Header className="lawn-care-subheader" id="lawn-care-key-components" as="h3">Key Services:</Header>
@@ -68,7 +68,7 @@ const LawnCare = (props) => {
                             </List>
                         </div>
                         <div className="lawn-care-content-col">
-                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/walkway-installation.jpg"} />
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/weed-control.jpg"} />
                         </div>
                         <div className="lawn-care-content-col">
                             <Header className="lawn-care-subheader" as="h3">Seasonal Services</Header>
@@ -81,7 +81,7 @@ const LawnCare = (props) => {
                             </p>
                         </div>
                         <div className="lawn-care-content-col">
-                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/retaining-wall-installation.jpg"} />
+                            <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
                         </div>
                         <div className="lawn-care-content-col">
                             <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
