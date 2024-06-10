@@ -139,12 +139,12 @@ const Drainage = (props) => {
                             </List>
                         </div>
                     </div>
-                    <p className="excavation-text" id="excavation-last-line">
+                    <p className="drainage-text" id="drainage-last-line">
                         By choosing our drainage and trench services, you ensure the longevity and reliability of your infrastructure. Contact us today for expert solutions tailored to your needs!
                     </p>
-                    <div id="excavation-btn-container">
-                        <Button className="excavation-btn" as={Link} to="/gallery">Gallery</Button>
-                        <Button className="excavation-btn" as={Link} to="/quotes">Get A Quote</Button>
+                    <div id="drainage-btn-container">
+                        <Button className="drainage-btn" as={Link} to="/gallery">Gallery</Button>
+                        <Button className="drainage-btn" as={Link} to="/quotes">Get A Quote</Button>
                     </div>
                 </div>
             </div>

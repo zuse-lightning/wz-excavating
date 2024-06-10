@@ -154,12 +154,12 @@ const Patios = (props) => {
                             </List>
                         </div>
                     </div>
-                    <p className="excavation-text" id="excavation-last-line">
+                    <p className="patios-text" id="patios-last-line">
                         Transform your outdoor spaces with our comprehensive patios, walks, and retaining walls services. Contact us today to create a stunning and functional landscape tailored to your needs!
                     </p>
-                    <div id="excavation-btn-container">
-                        <Button className="excavation-btn" as={Link} to="/gallery">Gallery</Button>
-                        <Button className="excavation-btn" as={Link} to="/quotes">Get A Quote</Button>
+                    <div id="patios-btn-container">
+                        <Button className="patios-btn" as={Link} to="/gallery">Gallery</Button>
+                        <Button className="patios-btn" as={Link} to="/quotes">Get A Quote</Button>
                     </div>
                 </div>
             </div>
