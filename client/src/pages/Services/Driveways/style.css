@@ -1,0 +1,125 @@
+#driveways-container {
+    background-color: #482b7b;
+}
+
+#driveways-banner {
+    height: 700px;
+    object-fit: cover;
+}
+
+#driveways {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+.driveways-header {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b;
+}
+
+#driveways-content-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 100px;
+    row-gap: 20px;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.driveways-content-col:nth-child(1), .driveways-content-col:nth-child(4), 
+.driveways-content-col:nth-child(7), .driveways-content-col:nth-child(9) {
+    grid-column: 2 / span 5;
+}
+
+.driveways-content-col:nth-child(2),
+.driveways-content-col:nth-child(5),
+.driveways-content-col:nth-child(8) {
+    grid-column: span 5;
+}
+
+.driveways-content-col:nth-child(2),
+.driveways-content-col:nth-child(4),
+.driveways-content-col:nth-child(8) {
+    margin-top: 10%;
+}
+
+.driveways-content-col:nth-child(3), .driveways-content-col:nth-child(6) {
+    grid-column: span 12;
+}
+
+.driveways-content-img {
+    padding: 10% 0;
+}
+
+.driveways-subheader {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b!important;
+    /* width: 90%!important; */ 
+    margin: 2% 5% 1%!important;
+}
+
+#driveways-key-components, #driveways-trench-steps {
+    margin: 0 0 4%!important;
+}
+
+.driveways-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.driveways-list {
+    width: 80%;
+    margin: 5% 10% 0!important;
+}
+
+.driveways-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2%;
+}
+.driveways-sub-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 0%;
+
+}
+
+.driveways-bold-text {
+    color: #482b7b;
+}
+
+#driveways-btn-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.driveways-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 15%!important;
+    border: 1px solid #fff!important;
+    margin: 0 1%!important;
+    transition: 0.5s!important;
+}
+
+.driveways-btn:hover {
+    background-color: #fff!important;
+    color: #482b7b!important;
+    border: 1px solid #482b7b!important;
+    transition: 0.5s!important;
+}
+
+#driveways-last-line {
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 2%;
+    text-align: center;
+}
