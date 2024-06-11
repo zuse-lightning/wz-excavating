@@ -25,7 +25,7 @@ const Driveways = (props) => {
                         <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/driveway-design.jpg"} />
                     </div>
                     <div className="driveways-content-col">
-                        <Header className="driveways-subheader" id="driveways-key-components" as="h3">Key Services:</Header>
+                        <Header className="driveways-subheader" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
                                 <b className="driveways-bold-text">Custom Design:</b> Our experts work with you to design a driveway that fits your aesthetic preferences and functional needs. We consider factors such as property layout, traffic patterns, and landscape integration to create a design that enhances your property's overall appearance.
@@ -48,7 +48,7 @@ const Driveways = (props) => {
                         </p>
                     </div>
                     <div className="driveways-content-col">
-                        <Header className="driveways-subheader" id="driveways-trench-steps" as="h3">Key Services:</Header>
+                        <Header className="driveways-subheader" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
                                 <b className="driveways-bold-text">Routine Maintenance:</b> We provide regular maintenance services including sealing, cleaning, and minor repairs to protect your driveway from weathering, oil stains, and other common issues. Sealing helps to prevent water infiltration and UV damage, while cleaning removes debris and stains.
@@ -74,10 +74,10 @@ const Driveways = (props) => {
                         </p>
                     </div>
                     <div className="driveways-content-col">
-                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/permeable-driveway.jpg"} />
+                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
                     </div>
                     <div className="driveways-content-col">
-                        <Header className="driveways-subheader" id="driveways-trench-steps" as="h3">Key Services:</Header>
+                        <Header className="driveways-subheader" as="h3">Key Services:</Header>
                         <List bulleted className="driveways-list">
                             <List.Item className="driveways-list-item">
                                 <b className="driveways-bold-text">Full Replacement:</b> When a driveway is beyond repair, a full replacement may be necessary. We remove the old driveway, prepare the site, and install a new driveway using your choice of materials. This ensures a fresh start and a long-lasting solution that meets current standards and your needs.
