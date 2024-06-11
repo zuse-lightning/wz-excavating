@@ -6,20 +6,46 @@
 
 #contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-    row-gap: 40px;
+    row-gap: 20px;
+}
+
+#contact-header1 {
+    color: white!important;
+    margin: 2% 0;
 }
 
 #contact-info {
-    width: 50%;
-    margin: 0 25%;
+    width: 70%;
+    margin: 10% 15% 0;
+    color: white;
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+#mail-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact-col:not(:last-child) {
+    padding: 2%;
+}
+
+.contact-col:first-child {
+    background-color: #482b7b;
+}
+
+.contact-col:nth-child(2) {
+    grid-column: span 2;
 }
 
 .contact-header {
     text-align: center;
+    font-family: "Antonio", sans-serif!important;
 }
 
 .contact-col:last-child {
-    grid-column: span 2;
+    grid-column: span 3;
 }
