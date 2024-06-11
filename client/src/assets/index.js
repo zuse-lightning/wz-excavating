@@ -25,13 +25,14 @@ export const serviceSlidesMobile = [
 ];
 
 export const galleryThumbnails = [
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/erosion-control.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/gravel-decorative-landscape.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/land-grading-site-prep.jpeg.webp",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/foundation-excavation.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/stormwater-management.jpg",
-    "https://wz-excavating-bucket.s3.amazonaws.com/services/driveway-design.jpg",
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/erosion-control.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/gravel-decorative-landscape.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/land-grading-site-prep.jpeg.webp" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/foundation-excavation.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/trenching-scaled.webp" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/stormwater-management.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/driveway-design.jpg" },
+    { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/ecological-landscaping.webp" }
 ];
