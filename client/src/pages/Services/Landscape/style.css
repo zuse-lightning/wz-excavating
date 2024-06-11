@@ -43,7 +43,8 @@
 
 .landscape-content-col:nth-child(1),
 .landscape-content-col:nth-child(5),
-.landscape-content-col:nth-child(7) {
+.landscape-content-col:nth-child(7),
+.landscape-content-col:nth-child(11) {
     margin-top: 10%;
 }
 

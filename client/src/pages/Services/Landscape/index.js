@@ -36,7 +36,7 @@ const Landscape = (props) => {
                             </List>
                         </div>
                         <div className="landscape-content-col">
-                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/site-clearing.jpg"} />
+                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/landscape-planning.jpg"} />
                         </div>
                         <div className="landscape-content-col">
                             <Header className="landscape-subheader" as="h3">Urban and Public Spaces</Header>
@@ -49,7 +49,7 @@ const Landscape = (props) => {
                             </p>
                         </div>
                         <div className="landscape-content-col">
-                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/earthmoving.jpg"} />
+                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/parks-and-rec.jpg"} />
                         </div>
                         <div className="landscape-content-col">
                             <Header className="landscape-subheader" as="h3">Key Services:</Header>
@@ -89,7 +89,7 @@ const Landscape = (props) => {
                             </List>
                         </div>
                         <div className="landscape-content-col">
-                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/stormwater-management.jpg"} />
+                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/ecological-landscaping.webp"} />
                         </div>
                         <div className="landscape-content-col">
                             <Header className="landscape-subheader" as="h3">Environmental and Restoration Projects</Header>
@@ -101,7 +101,7 @@ const Landscape = (props) => {
                             </p>
                         </div>
                         <div className="landscape-content-col">
-                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/earthmoving.jpg"} />
+                            <Image className="landscape-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/habitat-restoration.jpg"} />
                         </div>
                         <div className="landscape-content-col">
                             <Header className="landscape-subheader" as="h3">Key Services:</Header>
