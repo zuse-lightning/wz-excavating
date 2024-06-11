@@ -25,7 +25,7 @@ const Drainage = (props) => {
                             <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/drainage-install.webp"} />
                         </div>
                         <div className="drainage-content-col">
-                            <Header className="drainage-subheader" id="drainage-key-components" as="h3">Key Components of Drainage Services</Header>
+                            <Header className="drainage-subheader" as="h3">Key Components of Drainage Services</Header>
                             <List className="drainage-list">
                                 <List.Item className="drainage-list-item">
                                     <List.Header className="drainage-list-header">
@@ -79,7 +79,7 @@ const Drainage = (props) => {
                             <Image className="drainage-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/trench-planning.jpg"} />
                         </div>
                         <div className="drainage-content-col">
-                            <Header className="drainage-subheader" id="drainage-trench-steps" as="h3">Steps in Trench Services</Header>
+                            <Header className="drainage-subheader" as="h3">Steps in Trench Services</Header>
                             <List className="drainage-list">
                                 <List.Item className="drainage-list-item">
                                     <List.Header className="drainage-list-header">

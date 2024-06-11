@@ -26,7 +26,7 @@ const LawnCare = (props) => {
                             <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/lawn-maintenance.jpg"} />
                         </div>
                         <div className="lawn-care-content-col">
-                            <Header className="lawn-care-subheader" id="lawn-care-key-components" as="h3">Key Services:</Header>
+                            <Header className="lawn-care-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="lawn-care-list">
                                 <List.Item className="lawn-care-list-item">
                                     <b className="lawn-care-bold-text">Mowing:</b> Regular mowing is essential to keep the grass at an optimal height, promoting healthy growth and a uniform look. Our team ensures that your lawn is mowed with precision, avoiding scalping and uneven patches.
@@ -51,7 +51,7 @@ const LawnCare = (props) => {
                             </p>
                         </div>
                         <div className="lawn-care-content-col">
-                            <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="lawn-care-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="lawn-care-list">
                                 <List.Item className="lawn-care-list-item">
                                     <b className="lawn-care-bold-text">Fertilization:</b> We apply high-quality, balanced fertilizers to provide essential nutrients, promoting strong root development and vibrant green growth. Our approach is tailored to the specific nutrient needs of your lawn, ensuring it receives the right balance of nitrogen, phosphorus, and potassium.
@@ -84,7 +84,7 @@ const LawnCare = (props) => {
                             <Image className="lawn-care-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
                         </div>
                         <div className="lawn-care-content-col">
-                            <Header className="lawn-care-subheader" id="lawn-care-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="lawn-care-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="lawn-care-list">
                                 <List.Item className="lawn-care-list-item">
                                     <b className="lawn-care-bold-text">Spring Services:</b> Spring is the time to rejuvenate your lawn after the winter months. Our services include dethatching to remove dead grass and debris, reseeding to fill in bare spots, and applying pre-emergent herbicides to prevent weed growth.

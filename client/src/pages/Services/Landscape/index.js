@@ -22,7 +22,7 @@ const Landscape = (props) => {
                     </p>
                     <div id="landscape-content-container">
                         <div className="landscape-content-col">
-                            <Header className="landscape-subheader" id="landscape-key-components" as="h3">Key Services:</Header>
+                            <Header className="landscape-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="landscape-list">
                                 <List.Item className="landscape-list-item">
                                     <b className="landscape-bold-text">Site Analysis and Planning:</b> Our landscape architects conduct thorough site assessments to understand the unique characteristics of your property, including topography, soil conditions, climate, and existing vegetation. This analysis forms the foundation for creating a design that maximizes the site's potential while addressing any challenges or constraints.

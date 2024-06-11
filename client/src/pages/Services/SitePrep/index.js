@@ -22,7 +22,7 @@ const SitePrep = (props) => {
                     </p>
                     <div id="site-prep-content-container">
                         <div className="site-prep-content-col">
-                            <Header className="site-prep-subheader" id="site-prep-key-components" as="h3">Key Services:</Header>
+                            <Header className="site-prep-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="site-prep-list">
                                 <List.Item className="site-prep-list-item">
                                     <b className="site-prep-bold-text">Site Clearing:</b> We remove trees, shrubs, rocks, and debris to create a clean, obstruction-free site. This includes cutting down trees, grinding stumps, and removing underbrush, as well as demolishing and removing any existing structures that need to be cleared.
@@ -51,7 +51,7 @@ const SitePrep = (props) => {
                             <Image className="site-prep-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/earthmoving.jpg"} />
                         </div>
                         <div className="site-prep-content-col">
-                            <Header className="site-prep-subheader" id="site-prep-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="site-prep-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="site-prep-list">
                                 <List.Item className="site-prep-list-item">
                                     <b className="site-prep-bold-text">Excavation:</b> We perform detailed excavation for foundations, basements, and utility trenches, ensuring accurate depth and alignment. This includes digging for footings, foundations, and any sub-surface structures required for your project.
@@ -75,7 +75,7 @@ const SitePrep = (props) => {
                             </p>
                         </div>
                         <div className="site-prep-content-col">
-                            <Header className="site-prep-subheader" id="site-prep-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="site-prep-subheader" as="h3">Key Services:</Header>
                             <List bulleted className="site-prep-list">
                                 <List.Item className="site-prep-list-item">
                                     <b className="site-prep-bold-text">Erosion Control:</b> We install erosion control measures such as silt fences, erosion control blankets, and sediment basins to prevent soil loss and protect water quality. These measures are crucial for stabilizing slopes, protecting topsoil, and preventing sedimentation in nearby water bodies.

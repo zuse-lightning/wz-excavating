@@ -23,7 +23,7 @@ const Patios = (props) => {
                             <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/patio-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
-                            <Header className="patios-subheader" id="patios-key-components" as="h3">Key Services:</Header>
+                            <Header className="patios-subheader" as="h3">Key Services:</Header>
                             <List className="patios-list">
                                 <List.Item className="patios-list-item">
                                     <List.Header className="patios-list-header">
@@ -71,7 +71,7 @@ const Patios = (props) => {
                             <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/walkway-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
-                            <Header className="patios-subheader" id="patios-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="patios-subheader" as="h3">Key Services:</Header>
                             <List className="patios-list">
                                 <List.Item className="patios-list-item">
                                     <List.Header className="patios-list-header">
@@ -117,7 +117,7 @@ const Patios = (props) => {
                             <Image className="patios-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/retaining-wall-installation.jpg"} />
                         </div>
                         <div className="patios-content-col">
-                            <Header className="patios-subheader" id="patios-trench-steps" as="h3">Key Services:</Header>
+                            <Header className="patios-subheader" as="h3">Key Services:</Header>
                             <List className="patios-list">
                                 <List.Item className="patios-list-item">
                                     <List.Header className="patios-list-header">
