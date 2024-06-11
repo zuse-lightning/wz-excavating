@@ -22,7 +22,7 @@ const Driveways = (props) => {
                 </p>
                 <div id="driveways-content-container">
                     <div className="driveways-content-col">
-                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/lawn-maintenance.jpg"} />
+                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/driveway-design.jpg"} />
                     </div>
                     <div className="driveways-content-col">
                         <Header className="driveways-subheader" id="driveways-key-components" as="h3">Key Services:</Header>
@@ -62,7 +62,7 @@ const Driveways = (props) => {
                         </List>
                     </div>
                     <div className="driveways-content-col">
-                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/weed-control.jpg"} />
+                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/pothole-repair.jpg"} />
                     </div>
                     <div className="driveways-content-col">
                         <Header className="driveways-subheader" as="h3">Driveway Replacement and Upgrades</Header>
@@ -74,7 +74,7 @@ const Driveways = (props) => {
                         </p>
                     </div>
                     <div className="driveways-content-col">
-                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
+                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/permeable-driveway.jpg"} />
                     </div>
                     <div className="driveways-content-col">
                         <Header className="driveways-subheader" id="driveways-trench-steps" as="h3">Key Services:</Header>
