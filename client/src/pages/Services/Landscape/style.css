@@ -1,0 +1,127 @@
+#landscape-container {
+    background-color: #482b7b;
+}
+
+#landscape-banner {
+    height: 700px;
+    object-fit: cover;
+}
+
+#landscape {
+    width: 60%;
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: #fff;
+}
+
+.landscape-header {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b;
+}
+
+#landscape-content-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 100px;
+    row-gap: 20px;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.landscape-content-col:nth-child(1), .landscape-content-col:nth-child(4), 
+.landscape-content-col:nth-child(7), .landscape-content-col:nth-child(10),
+.landscape-content-col:nth-child(11) {
+    grid-column: 2 / span 5;
+}
+
+.landscape-content-col:nth-child(2),
+.landscape-content-col:nth-child(5),
+.landscape-content-col:nth-child(8),
+.landscape-content-col:nth-child(11) {
+    grid-column: span 5;
+}
+
+.landscape-content-col:nth-child(1),
+.landscape-content-col:nth-child(5),
+.landscape-content-col:nth-child(7) {
+    margin-top: 10%;
+}
+
+.landscape-content-col:nth-child(3), .landscape-content-col:nth-child(6), .landscape-content-col:nth-child(9) {
+    grid-column: span 12;
+}
+
+.landscape-content-img {
+    padding: 10% 0;
+}
+
+.landscape-subheader {
+    font-family: 'Antonio', sans-serif;
+    color: #482b7b!important;
+    /* width: 90%!important; */ 
+    margin: 2% 5% 1%!important;
+}
+
+#landscape-key-components, #landscape-trench-steps {
+    margin: 0 0 4%!important;
+}
+
+.landscape-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.landscape-list {
+    width: 80%;
+    margin: 5% 10% 0!important;
+}
+
+.landscape-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2%;
+}
+.landscape-sub-list-item {
+    font-family: 'Antonio', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 0%;
+
+}
+
+.landscape-bold-text {
+    color: #482b7b;
+}
+
+#landscape-btn-container {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.landscape-btn {
+    color: white!important;
+    background-color: #482b7b!important;
+    width: 15%!important;
+    border: 1px solid #fff!important;
+    margin: 0 1%!important;
+    transition: 0.5s!important;
+}
+
+.landscape-btn:hover {
+    background-color: #fff!important;
+    color: #482b7b!important;
+    border: 1px solid #482b7b!important;
+    transition: 0.5s!important;
+}
+
+#landscape-last-line {
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 2%;
+    text-align: center;
+}
