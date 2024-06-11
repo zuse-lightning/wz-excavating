@@ -16,7 +16,7 @@ const Navbar = () => {
         { name: "Lawn Care", path: "/services/lawn-care" },
         { name: "Site Prep", path: "/services/site-prep" },
         { name: "Driveways", path: "/services/driveways" },
-        { name: "Landscape", path: "/services/landscape" }
+        { name: "Landscape Architecture", path: "/services/landscape" }
     ];
 
     return (
