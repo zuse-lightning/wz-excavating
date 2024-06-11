@@ -1,0 +1,9 @@
+#gallery-container {
+    width: 60%;
+    margin: 0 20%;
+    padding: 1% 0;
+}
+
+#gallery-header, #gallery-subheader {
+    text-align: center;
+}

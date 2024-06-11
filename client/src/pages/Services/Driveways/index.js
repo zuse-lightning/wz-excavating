@@ -74,7 +74,7 @@ const Driveways = (props) => {
                         </p>
                     </div>
                     <div className="driveways-content-col">
-                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/seasonal-services.jpg"} />
+                        <Image className="driveways-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/permeable-driveway.jpg"} />
                     </div>
                     <div className="driveways-content-col">
                         <Header className="driveways-subheader" as="h3">Key Services:</Header>
