@@ -3,7 +3,16 @@ import React from "react";
 const About = (props) => {
     return (
         <>
-            <h1>About</h1>
+            <div id="about-container">
+                <div id="about">
+                    <div className="about-col">
+                        
+                    </div>
+                    <div className="about-col">
+                    
+                    </div>
+                </div>
+            </div>
         </>
     );
 };
