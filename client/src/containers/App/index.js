@@ -51,7 +51,7 @@ const App = () => {
             <div id="main-container">
                 <Routes>
                     <Route exact path="/" element={<Home screenWidth={width} />} />
-                    <Route exact path="/about" element={<About contextRef={contextRef} />} />
+                    <Route exact path="/about" element={<About contextRef={contextRef} screenWidth={width} />} />
                     <Route exact path="/services/*" element={<Services screenWidth={width} />} />
                     {/* <Route exact path="/equipment" element={<Equipment />} /> */}
                     <Route exact path="/gallery" element={<Gallery />} />

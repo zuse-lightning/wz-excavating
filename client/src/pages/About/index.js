@@ -6,14 +6,15 @@ import "./style.css";
 
 const About = (props) => {
 
-    const { contextRef } = props;
+    const { contextRef, screenWidth } = props;
 
     return (
         <>
             <div id="about-container">
                 <div id="about" ref={contextRef}>
                     <div className="about-col">
-                        <Header as="h1" id="about-header">About</Header>
+                        <Header as="h1" id="about-header">About </Header>
+                        {/* {screenWidth} */}
                         <p className="about-text">
                             Welcome to WZ Trucking & Excavation, your trusted partner for comprehensive construction
                             and landscaping solutions in Snohomish, WA. With a dedication to excellence and a passion
@@ -129,6 +130,7 @@ const About = (props) => {
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade">
                                 </iframe>
+                                {/* {screenWidth} */}
                             </div>
                         </Sticky>
                     </div>
