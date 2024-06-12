@@ -1,0 +1,48 @@
+#quote-container {
+    width: 60%;
+    margin: 0 20%;
+    padding: 1% 0;
+}
+
+#quote {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#quote-header1 {
+    color: white!important;
+    margin: 2% 0;
+}
+
+#quote-info {
+    width: 70%;
+    margin: 10% 15% 0;
+    color: white;
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;
+}
+
+#mail-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.quote-col:not(:last-child) {
+    padding: 2%;
+}
+
+.quote-col:first-child {
+    background-color: #482b7b;
+    grid-column: span 1;
+}
+
+.quote-col:nth-child(2) {
+    grid-column: span 2;
+}
+
+.quote-header {
+    text-align: center;
+    font-family: "Antonio", sans-serif!important;
+}
