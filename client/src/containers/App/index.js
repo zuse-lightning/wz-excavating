@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createRef } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import About from "../../pages/About";
@@ -42,6 +42,7 @@ const useWindowDimensions = () => {
 const App = () => {
 
     const { width, height } = useWindowDimensions();
+    const contextRef = createRef();
 
     return (
         <>
@@ -50,7 +51,7 @@ const App = () => {
             <div id="main-container">
                 <Routes>
                     <Route exact path="/" element={<Home screenWidth={width} />} />
-                    <Route exact path="/about" element={<About />} />
+                    <Route exact path="/about" element={<About contextRef={contextRef} />} />
                     <Route exact path="/services/*" element={<Services screenWidth={width} />} />
                     {/* <Route exact path="/equipment" element={<Equipment />} /> */}
                     <Route exact path="/gallery" element={<Gallery />} />
