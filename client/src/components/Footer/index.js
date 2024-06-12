@@ -19,9 +19,9 @@ const Footer = () => {
                     <div className="footer-col">
                         <Header as="h3" className="footer-header">Contact Information</Header>
                         <p className="footer-text" id="footer-contact-info">
-                            <Icon className="footer-icon" name="map pin" />1323 Ave D Unit 1129, Snohomish, WA 98291<br />
+                            <Icon className="footer-icon" name="map marker alternate" />1323 Ave D Unit 1129, Snohomish, WA 98291<br />
                             <Icon className="footer-icon" name="phone" />(203) 738-8106<br />
-                            <Icon className="footer-icon" name="mail" /> info@wzexcavating.com<br />
+                            <Icon className="footer-icon" name="mail" /> tyler@wzexcavating.com<br />
                         </p>
                     </div>
                     <div className="footer-col">
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-col">
-                        <p className="footer-text" id="footer-copyright">© 2024 WZ Excavating LLC</p>
+                        <p className="footer-text" id="footer-copyright">© 2024 WZ Trucking & Excavation LLC</p>
                     </div>
                 </div>
             </div>
