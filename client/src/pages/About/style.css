@@ -1,0 +1,41 @@
+#about-container {
+    width: 60%;
+    margin: 0 20%;
+    padding: 1% 0;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.about-col:first-child {
+    grid-column: span 2;
+}
+
+.about-col:last-child {
+    background-color: #482b7b;
+    padding: 5%;
+    color: white;
+}
+
+#about-header {
+    font-family: "Antonio", sans-serif;
+}
+
+.about-subheader {
+    color: white!important;
+    font-family: "Antonio", sans-serif!important;
+}
+
+#about-hours-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-text {
+    font-size: 16px!important;
+    line-height: 30px!important;
+}
