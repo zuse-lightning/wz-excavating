@@ -7,7 +7,7 @@
 #about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+    column-gap: 40px;
     row-gap: 20px;
 }
 
@@ -15,7 +15,7 @@
     grid-column: span 2;
 }
 
-.about-col:last-child {
+#about-contact-info {
     background-color: #482b7b;
     padding: 5%;
     color: white;
@@ -25,7 +25,12 @@
     font-family: "Antonio", sans-serif;
 }
 
-.about-subheader {
+.about-subheader.first-col {
+    font-family: "Antonio", sans-serif!important;
+    color: #482b7b!important;
+}
+
+.about-subheader.second-col {
     color: white!important;
     font-family: "Antonio", sans-serif!important;
 }
@@ -38,4 +43,20 @@
 .about-text {
     font-size: 16px!important;
     line-height: 30px!important;
+}
+
+.about-list {
+    width: 75%;
+    margin: 2% 20% 0 5%!important;
+}
+
+.about-list-item {
+    font-family: "Antonio", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2%;
+}
+
+.about-bold-text {
+    color: #482b7b;
 }
