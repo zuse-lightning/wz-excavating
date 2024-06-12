@@ -43,34 +43,44 @@ const QuoteForm = (props) => {
                 <div className="quote-form-col">
                     <div className="form-input checkbox-list">
                         <div className="form-checkbox-option">
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
+                            <input className="form-checkbox" type="checkbox" name="top-soil" value="Top Soil" />
+                            <label className="form-checkbox-label" for="top-soil"> Top Soil</label>
                         </div>
                         <div className="form-checkbox-option">
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
+                            <input className="form-checkbox" type="checkbox" name="gravel" value="Gravel" />
+                            <label className="form-checkbox-label" for="gravel"> Gravel</label>
                         </div>
                         <div className="form-checkbox-option">
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
+                            <input className="form-checkbox" type="checkbox" name="land-grading" value="Land Grading" />
+                            <label className="form-checkbox-label" for="land-grading"> Land Grading</label>
                         </div>
                         <div className="form-checkbox-option">
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
+                            <input className="form-checkbox" type="checkbox" name="excavation" value="Excavation" />
+                            <label className="form-checkbox-label" for="excavation"> Excavation</label>
                         </div>
                         <div className="form-checkbox-option">
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
-                            <input className="form-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-                            <label className="form-checkbox-label" for="vehicle1"> I have a bike</label>
+                            <input className="form-checkbox" type="checkbox" name="drainage" value="Drainage Systems & Trenches" />
+                            <label className="form-checkbox-label" for="drainage"> Drainage Systems & Trenches</label>
+                        </div>
+                        <div className="form-checkbox-option">
+                            <input className="form-checkbox" type="checkbox" name="patios" value="Patios, Walks & Retaining Walls" />
+                            <label className="form-checkbox-label" for="patios"> Patios, Walks & Retaining Walls</label>
+                        </div>
+                        <div className="form-checkbox-option">
+                            <input className="form-checkbox" type="checkbox" name="lawn-care" value="Lawn Care" />
+                            <label className="form-checkbox-label" for="lawn-care"> Lawn Care</label>
+                        </div>
+                        <div className="form-checkbox-option">
+                            <input className="form-checkbox" type="checkbox" name="site-prep" value="Site Prep" />
+                            <label className="form-checkbox-label" for="site-prep"> Site Prep</label>
+                        </div>
+                        <div className="form-checkbox-option">
+                            <input className="form-checkbox" type="checkbox" name="driveways" value="Driveways" />
+                            <label className="form-checkbox-label" for="driveways"> Driveways</label>
+                        </div>
+                        <div className="form-checkbox-option">
+                            <input className="form-checkbox" type="checkbox" name="landscape" value="Landscape Architecture" />
+                            <label className="form-checkbox-label" for="landscape"> Architecture</label>
                         </div>
                     </div>
                 </div>
