@@ -17,10 +17,27 @@
     grid-column: 2 / span 1;
 }
 
+.quote-form-col:has(.form-label.service) {
+    grid-column: span 12;
+}
+
 .form-input {
     width: 90%;
     height: 30px;
     border: solid black 1px;
+    font-family: "Antonio", sans-serif;
+}
+
+.form-input.checkbox-list {
+    border: solid transparent 1px;
+    height: 100px;
+}
+
+.form-checkbox {
+    margin-left: 5%;
+}
+
+.form-checkbox-label {
     font-family: "Antonio", sans-serif;
 }
 
