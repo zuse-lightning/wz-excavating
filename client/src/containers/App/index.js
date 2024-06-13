@@ -1,4 +1,5 @@
 import React, { useState, useEffect, createRef } from "react";
+import { Sidebar } from "semantic-ui-react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import About from "../../pages/About";
@@ -48,17 +49,21 @@ const App = () => {
         <>
             <AnnouncementBar />
             <Navbar screenWidth={width} />
-            <div id="main-container">
-                <Routes>
-                    <Route exact path="/" element={<Home screenWidth={width} />} />
-                    <Route exact path="/about" element={<About contextRef={contextRef} screenWidth={width} />} />
-                    <Route exact path="/services/*" element={<Services screenWidth={width} />} />
-                    {/* <Route exact path="/equipment" element={<Equipment />} /> */}
-                    <Route exact path="/gallery" element={<Gallery />} />
-                    <Route exact path="/contact" element={<Contact />} />
-                    <Route exact path="/quotes" element={<Quotes />} />
-                </Routes>
-            </div>
+            <Sidebar.Pushable>
+                <Sidebar.Pusher>
+                    <div id="main-container">
+                        <Routes>
+                            <Route exact path="/" element={<Home screenWidth={width} />} />
+                            <Route exact path="/about" element={<About contextRef={contextRef} screenWidth={width} />} />
+                            <Route exact path="/services/*" element={<Services screenWidth={width} />} />
+                            {/* <Route exact path="/equipment" element={<Equipment />} /> */}
+                            <Route exact path="/gallery" element={<Gallery />} />
+                            <Route exact path="/contact" element={<Contact />} />
+                            <Route exact path="/quotes" element={<Quotes />} />
+                        </Routes>
+                    </div>
+                </Sidebar.Pusher>
+            </Sidebar.Pushable>
             <Certifications />
             <Testimonials />
             <Footer />

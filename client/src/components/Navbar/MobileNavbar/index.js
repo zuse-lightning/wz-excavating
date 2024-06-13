@@ -1,12 +1,13 @@
-import React from "react";
-import { Menu, Icon, Image, Dropdown } from "semantic-ui-react";
+import React, { useState } from "react";
+import { Menu, Icon, Image, Sidebar } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "../style.css";
 
 const MobileNavbar = (props) => {
 
-    const  { screenWidth, services } = props;
+    const { screenWidth } = props;
+    const [mainVisible, setMainVisible] = useState(false);
 
     let logoSize;
 
@@ -41,42 +42,65 @@ const MobileNavbar = (props) => {
                 <Icon
                     name="bars"
                     id="header-nav-stack"
-                >
-                    <Dropdown>
-                    <Dropdown.Menu>
-                        <Dropdown.Item
-                            as={Link}
-                            to="/about"
-                            text="About"
-                        />
-                        <Dropdown.Item
-                            as={Link}
-                            to="/services"
-                            text="Services"
-                        />
-                        {/* <Dropdown.Item
-                            as={Link}
-                            to="/equipment"
-                            text="Equipment"
-                        /> */}
-                        <Dropdown.Item
-                            as={Link}
-                            to="/gallery"
-                            text="Gallery"
-                        />
-                        <Dropdown.Item
-                            as={Link}
-                            to="/contact"
-                            text="Contact"
-                        />
-                        <Dropdown.Item
-                            as={Link}
-                            to="/quotes"
-                            text="Get A Quote"
-                        />
-                    </Dropdown.Menu></Dropdown>
-                </Icon>
+                    onClick={(e) => setMainVisible(!mainVisible)}
+                />
             </Menu.Item>
+            <Sidebar
+                as={Menu}
+                animation="overlay"
+                icon="labeled"
+                inverted
+                onHide={() => setMainVisible(false)}
+                vertical
+                visible={mainVisible}
+                width="wide"
+            >
+                <Menu.Item
+                    className="header-nav-item"
+                    as={Link}
+                    onClick={(e) => setMainVisible(false)}
+                    to="/about"
+                    name="about"
+                >
+                    About
+                </Menu.Item>
+                <Menu.Item
+                    as={Link}
+                    onClick={(e) => setMainVisible(false)}
+                    to="/services"
+                    className="header-nav-item"
+                    name="services"
+                >
+                    Services
+                </Menu.Item>
+                <Menu.Item
+                    className="header-nav-item"
+                    as={Link}
+                    onClick={(e) => setMainVisible(false)}
+                    to="/gallery"
+                    name="gallery"
+                >
+                    Gallery
+                </Menu.Item>
+                <Menu.Item
+                    className="header-nav-item"
+                    as={Link}
+                    onClick={(e) => setMainVisible(false)}
+                    to="/contact"
+                    name="contact"
+                >
+                    Contact
+                </Menu.Item>
+                <Menu.Item
+                    className="header-nav-item"
+                    as={Link}
+                    onClick={(e) => setMainVisible(false)}
+                    to="/quotes"
+                    name="quotes"
+                >
+                    Get A Quote
+                </Menu.Item>
+            </Sidebar>
         </Menu>
     );
 };
