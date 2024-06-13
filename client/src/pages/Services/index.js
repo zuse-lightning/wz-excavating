@@ -1,5 +1,6 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import OurServices from "../../components/OurServices";
 import TopSoil from "./TopSoil";
 import Gravel from "./Gravel";
 import LandGrading from "./LandGrading";
@@ -14,9 +15,11 @@ import Landscape from "./Landscape";
 const Services = (props) => {
 
     const { screenWidth } = props;
+    const pathname = useLocation().pathname;
     
     return (
         <>
+            {pathname === "/services" ? <OurServices screenWidth={screenWidth} /> : null}
             <Routes>
                 <Route exact path="top-soil" element={<TopSoil screenWidth={screenWidth} />} />
                 <Route exact path="gravel" element={<Gravel screenWidth={screenWidth} />} />

@@ -18,8 +18,6 @@
     font-family: 'Antonio', sans-serif !important;
 }
 
-
-
 .dropdown.icon {
     text-decoration: none !important;
 }
@@ -61,6 +59,10 @@
 
     .ui.vertical.menu .item:before {
         width: 0%!important;
+    }
+
+    .ui.secondary.pointing.menu .item {
+        align-self: center!important;
     }
 }
 
