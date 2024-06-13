@@ -49,6 +49,9 @@
         font-size: 28px;
         margin-left: -15%;
     }
+    #mobile-nav-container {
+        
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {

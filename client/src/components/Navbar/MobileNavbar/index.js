@@ -16,6 +16,9 @@ const MobileNavbar = (props) => {
         logoSize = "medium";
     };
 
+    console.log(logoSize);
+    console.log(screenWidth);
+
     return (
         <Menu id="mobile-main-menu" pointing secondary fluid>
             <Menu.Item
