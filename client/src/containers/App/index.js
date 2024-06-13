@@ -47,7 +47,7 @@ const App = () => {
     return (
         <>
             <AnnouncementBar />
-            <Navbar />
+            <Navbar screenWidth={width} />
             <div id="main-container">
                 <Routes>
                     <Route exact path="/" element={<Home screenWidth={width} />} />

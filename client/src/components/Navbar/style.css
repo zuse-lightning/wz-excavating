@@ -3,8 +3,11 @@
     background-image: url("https://wz-excavating-bucket.s3.amazonaws.com/banners/navbar-backdrop.jpeg");
     background-position: 20% 30%;
     margin: 0!important;
-    padding: 0 30%;
     background-color: #fefcfd;
+}
+
+#main-menu {
+    padding: 0 30%;
 }
 
 .header-nav-item {
@@ -44,6 +47,7 @@
 
     #header-nav-stack {
         font-size: 28px;
+        margin-left: -15%;
     }
 }
 
