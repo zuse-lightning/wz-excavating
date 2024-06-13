@@ -47,6 +47,7 @@ const MobileNavbar = (props) => {
             </Menu.Item>
             <Sidebar
                 as={Menu}
+                id="mobile-sidebar"
                 animation="overlay"
                 icon="labeled"
                 inverted

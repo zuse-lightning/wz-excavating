@@ -49,7 +49,7 @@ const App = () => {
         <>
             <AnnouncementBar />
             <Navbar screenWidth={width} />
-            <Sidebar.Pushable>
+            <Sidebar.Pushable id="main-pushable">
                 <Sidebar.Pusher>
                     <div id="main-container">
                         <Routes>

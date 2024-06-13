@@ -2,7 +2,7 @@
 #mobile-main-menu {
     background-image: url("https://wz-excavating-bucket.s3.amazonaws.com/banners/navbar-backdrop.jpeg");
     background-position: 20% 30%;
-    margin: 0!important;
+    margin: 0 !important;
     background-color: #fefcfd;
 }
 
@@ -12,15 +12,13 @@
 
 .header-nav-item {
     font-size: 20px;
-    color: white!important;
-    padding-top: -3%!important;
-    padding-bottom: 1%!important;
-    font-family: 'Antonio', sans-serif!important;
+    color: white !important;
+    padding-top: -3% !important;
+    padding-bottom: 1% !important;
+    font-family: 'Antonio', sans-serif !important;
 }
 
-.header-nav-item:not(:first-child) {
-    margin-bottom: 3.5%!important;
-}
+
 
 .dropdown.icon {
     text-decoration: none !important;
@@ -28,16 +26,23 @@
 
 .ui.secondary.menu .active.item {
     background: none !important;
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 .ui.secondary.menu .active.item:hover {
     background: none !important;
 }
 
+@media (min-width: 992px) {
+    .header-nav-item:not(:first-child) {
+        margin-bottom: 3.5% !important;
+    }
+}
+
 @media (max-width: 991px) {
     .header-nav-item {
         text-decoration: none !important;
+
     }
 
     .header-nav-item:hover {
@@ -47,7 +52,15 @@
 
     #header-nav-stack {
         font-size: 28px;
-        color: white!important;
+        color: white !important;
+    }
+
+    #mobile-sidebar {
+        background-color: #482b7b !important;
+    }
+
+    .ui.vertical.menu .item:before {
+        width: 0%!important;
     }
 }
 
