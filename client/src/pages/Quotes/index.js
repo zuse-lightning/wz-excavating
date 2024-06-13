@@ -21,8 +21,16 @@ const Quotes = (props) => {
                                 If you have any questions or concerns, please feel free to reach out to us at <a href="tel:+12037388106">(203) 738-8106</a> or fill out the
                                 quote form on this page.
                             </p>
-                            <List id="quote-list">
-                                
+                            <br />
+                            <p className="quote-text">
+                                Some of our most popular services include:
+                            </p>
+                            <List bulleted id="quote-list">
+                                <List.Item>Top Soil</List.Item>
+                                <List.Item>Gravel</List.Item>
+                                <List.Item>Land Grading</List.Item>
+                                <List.Item>Excavation</List.Item>
+                                <List.Item>Patios, Walks & Retaining Walls</List.Item>
                             </List>
                         </div>
                     </div>

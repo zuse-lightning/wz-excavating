@@ -85,7 +85,7 @@ const QuoteForm = (props) => {
                     </div>
                 </div>
                 <div className="quote-form-col">
-                    <label className="form-label" id="message-label" htmlFor="message">Message:</label>
+                    <label className="form-label" id="message-label" htmlFor="message">Project:</label>
                 </div>
                 <div className="quote-form-col">
                     <textarea className="form-input" id="message-input" name="message" required></textarea>

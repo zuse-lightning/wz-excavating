@@ -18,7 +18,7 @@
 
 #quote-info {
     width: 70%;
-    margin: 10% 15% 0;
+    margin: 0 15%;
     color: white;
     font-size: 20px;
     font-family: "Antonio", sans-serif;
@@ -30,7 +30,7 @@
 }
 
 .quote-col:not(:last-child) {
-    padding: 2%;
+    padding: 9% 0;
 }
 
 .quote-col:first-child {
@@ -45,4 +45,10 @@
 .quote-header {
     text-align: center;
     font-family: "Antonio", sans-serif!important;
+}
+
+#quote-list-header {
+    color: white!important;
+    margin: 2% 0;
+    text-align: left;
 }
