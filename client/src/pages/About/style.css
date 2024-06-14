@@ -12,6 +12,8 @@
 
 .about-col:first-child {
     grid-column: span 2;
+    overflow-y: auto;
+    max-height: 800px;
 }
 
 #about-contact-info {
