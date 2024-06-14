@@ -18,7 +18,7 @@ const Quotes = (props) => {
                             </p>
                             <br />
                             <p className="quote-text">
-                                If you have any questions or concerns, please feel free to reach out to us at <a href="tel:+12037388106">(203) 738-8106</a> or fill out the
+                                If you have any questions or concerns, please feel free to reach out to us at <a id="phone-link" href="tel:+12037388106">(203) 738-8106</a> or fill out the
                                 quote form on this page.
                             </p>
                             <br />

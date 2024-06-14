@@ -13,7 +13,7 @@ const Contact = (props) => {
                     <div className="contact-col">
                         <Header className="contact-header" id="contact-header1" as="h1">Contact Information</Header>
                         <div id="contact-info">
-                            <p><Icon id="phone-icon" name="phone" /> (203) 738-8106</p>
+                            <p><Icon id="phone-icon" name="phone" /> <a id="phone-link" href="tel:+12037388106">(203) 738-8106</a></p>
                             <p><Icon id="mail-icon" name="mail" /> <a id="mail-link" href="mailto:tyler@wzexcavting.com">tyler@wzexcavting.com</a></p>
                             <p><Icon id="location-icon" name="map marker alternate" /> 1323 Ave D #1129, Snohomish, WA 98290</p>
                         </div>

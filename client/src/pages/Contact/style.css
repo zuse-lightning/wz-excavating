@@ -24,7 +24,7 @@
     font-family: "Antonio", sans-serif;
 }
 
-#mail-link {
+#mail-link, #phone-link {
     color: white;
     text-decoration: underline;
 }
