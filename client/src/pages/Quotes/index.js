@@ -1,6 +1,5 @@
 import React from "react";
-import { Icon, Header, List } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import { Header, List } from "semantic-ui-react";
 import QuoteForm from "../../components/QuoteForm";
 
 import "./style.css";
