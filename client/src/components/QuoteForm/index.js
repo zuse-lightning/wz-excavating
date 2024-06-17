@@ -91,7 +91,7 @@ const QuoteForm = (props) => {
                     <textarea className="form-input" id="message-input" name="message" required></textarea>
                 </div>
                 <div className="quote-form-col">
-                    <button id="quote-submit-btn" type="submit">Submit</button>
+                    <button id="quote-submit-btn" type="submit" disabled>Submit</button>
                 </div>
             </form>
         </>

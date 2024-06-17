@@ -32,7 +32,7 @@ const ContactForm = (props) => {
                     <textarea className="form-input" id="message-input" name="message" required></textarea>
                 </div>
                 <div className="contact-form-col">
-                    <button id="contact-submit-btn" type="submit">Submit</button>
+                    <button id="contact-submit-btn" type="submit" disabled>Submit</button>
                 </div>
             </form>
         </>
