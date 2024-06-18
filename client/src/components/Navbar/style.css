@@ -31,6 +31,19 @@
     background: none !important;
 }
 
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #main-menu {
+        padding: 0 30%;
+    }
+    .header-nav-item {
+        font-size: 20px;
+        color: white !important;
+        padding-top: -3% !important;
+        padding-bottom: 1% !important;
+        font-family: 'Antonio', sans-serif !important;
+    }
+}
+
 @media (min-width: 992px) {
     .header-nav-item:not(:first-child) {
         margin-bottom: 3.5% !important;
