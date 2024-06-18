@@ -32,9 +32,8 @@
 }
 
 .testimonial-text {
-    font-size: 20px;
-    line-height: 40px;
-    
+    font-size: 16px;
+        line-height: 35px;
 }
 
 #testimonials-header, .testimonial-text {
@@ -54,7 +53,12 @@
     }
 
     #testimonials {
-        width: 70%;
-        margin: 0 15%;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 35px;
     }
 }
