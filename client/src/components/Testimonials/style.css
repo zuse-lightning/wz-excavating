@@ -43,15 +43,6 @@
 }
 
 @media (max-width: 2053px) and (min-width: 1700px) {
-    #testimonials-container {
-        padding: 2%;
-    }
-
-    #testimonials-header-container {
-        width: 60%;
-        margin: 0 20%;
-    }
-
     #testimonials {
         width: 80%;
         margin: 0 10%;
@@ -60,5 +51,92 @@
     .testimonial-text {
         font-size: 16px;
         line-height: 35px;
+    }
+}
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    #testimonials {
+        width: 80%;
+        margin: 0 10%;
+        column-gap: 40px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #testimonials {
+        width: 90%;
+        margin: 0 5%;
+        column-gap: 40px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 801px) {
+    #testimonials {
+        width: 50%;
+        margin: 5% 25%;
+        row-gap: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    #testimonials {
+        width: 50%;
+        margin: 5% 25%;
+        row-gap: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 362px) {
+    #testimonials-header-container {
+        width: 80%;
+        margin: 2% 10%;
+    }
+
+    #testimonials {
+        width: 70%;
+        margin: 5% 15%;
+        row-gap: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 361px) {
+    #testimonials-header-container {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    #testimonials {
+        width: 90%;
+        margin: 5% 5%;
+        row-gap: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 30px;
     }
 }
