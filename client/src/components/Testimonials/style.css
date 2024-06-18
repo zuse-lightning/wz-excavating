@@ -42,3 +42,19 @@
     font-family: 'Antonio', sans-serif!important;
     font-weight: 300;
 }
+
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #testimonials-container {
+        padding: 2%;
+    }
+
+    #testimonials-header-container {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    #testimonials {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
