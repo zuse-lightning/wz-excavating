@@ -95,23 +95,6 @@
         width: 70%;
         margin: 0 15%;
     }
-    #top-soil-content-container {
-        column-gap: 50px;
-    }
-
-    .top-soil-content-img.second, .top-soil-content-img.third {
-        margin-top: 10%!important;
-    }
-
-    .top-soil-content-col:nth-child(1), .top-soil-content-col:nth-child(4),
-    .top-soil-content-col:nth-child(5) {
-        grid-column: span 5;
-    }
-
-    .top-soil-content-col:nth-child(2), .top-soil-content-col:nth-child(3),
-    .top-soil-content-col:nth-child(6) {
-        grid-column: span 7;
-    }
 }
 
 @media (max-width: 1699px) and (min-width: 1200px) {
@@ -120,30 +103,26 @@
         margin: 0 10%;
     }
 
-    #top-soil-content-container {
-        column-gap: 50px;
+    .top-soil-text {
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .top-soil-content-img.first {
-        margin-top: 5%!important;
+    .top-soil-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .top-soil-content-img.second, .top-soil-content-img.third {
-        margin-top: 10%!important;
+    .top-soil-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
     }
 
-    .top-soil-content-col:nth-child(1), .top-soil-content-col:nth-child(4),
-    .top-soil-content-col:nth-child(5) {
-        grid-column: span 5;
-    }
-
-    .top-soil-content-col:nth-child(2), .top-soil-content-col:nth-child(3),
-    .top-soil-content-col:nth-child(6) {
-        grid-column: span 7;
-    }
-
-    .top-soil-content-col:last-child {
-        padding: 10% 0;
+    #top-soil-list {
+        width: 50%;
+        margin: 0 25%;
     }
 }
 
@@ -153,30 +132,26 @@
         margin: 0 10%;
     }
 
-    #top-soil-content-container {
-        column-gap: 50px;
+    .top-soil-text {
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .top-soil-content-img.first {
-        margin-top: 5%!important;
+    .top-soil-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .top-soil-content-img.second, .top-soil-content-img.third {
-        margin-top: 10%!important;
+    .top-soil-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
     }
 
-    .top-soil-content-col:nth-child(1), .top-soil-content-col:nth-child(4),
-    .top-soil-content-col:nth-child(5) {
-        grid-column: span 5;
-    }
-
-    .top-soil-content-col:nth-child(2), .top-soil-content-col:nth-child(3),
-    .top-soil-content-col:nth-child(6) {
-        grid-column: span 7;
-    }
-
-    .top-soil-content-col:last-child {
-        padding: 10% 0;
+    #top-soil-list {
+        width: 50%;
+        margin: 0 25%;
     }
 
     .top-soil-btn {
@@ -186,28 +161,38 @@
 
 @media (max-width: 991px) and (min-width: 768px) {
     #top-soil {
-        width: 80%;
-        margin: 0 10%;
+        width: 100%;
+        margin: 0 0%;
     }
 
     #top-soil-banner {
         height: auto;
     }
 
-    #top-soil-content-container {
-        column-gap: 50px;
+    .top-soil-text {
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .top-soil-content-col {
-        grid-column: span 12!important;
+    .top-soil-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .top-soil-content-col:nth-child(4) {
-        grid-row: 3;
+    .top-soil-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
     }
 
-    .top-soil-content-col:last-child {
-        padding: 10% 0;
+    .top-soil-header {
+        margin-top: 5%!important;
+    }
+
+    #top-soil-list {
+        width: 60%;
+        margin: 0 20% 5%;
     }
 
     .top-soil-btn {
@@ -225,25 +210,34 @@
         height: auto;
     }
 
-    #top-soil-content-container {
-        grid-template-columns: repeat(1, 1fr);
+    .top-soil-text {
         width: 90%;
-        margin: 2% 5%;
+        margin: 2% 5% 10%;
     }
 
-    .top-soil-content-col {
-        grid-column: span 1!important;
-    }
-    .top-soil-content-col:nth-child(4) {
-        grid-row: 3;
+    .top-soil-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 300px!important;
+        object-fit: cover!important;
     }
 
-    .top-soil-content-col:last-child {
-        padding: 10% 0;
+    .top-soil-subheader {
+        width: 90%!important;
+        margin: 5% 5% 1%!important;
+    }
+
+    .top-soil-header {
+        width: 70%!important;
+        margin: 10% 15% 5%!important;
+    }
+
+    #top-soil-list {
+        width: 80%;
+        margin: 0 10% 10%;
     }
 
     .top-soil-btn {
         width: 40%!important;
     }
 }
-
