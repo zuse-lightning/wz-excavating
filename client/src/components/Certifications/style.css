@@ -13,3 +13,41 @@
 .cert-col {
     grid-column: span 2;
 }
+
+@media (max-width: 2053px) and (min-width: 1200px) {
+    #certifications-container {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #certifications-container {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 801px) {
+    #certifications-container {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    #certifications-container {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    #certifications-container {
+        width: 90%;
+        margin: 0 5%;
+    }
+    #certifications {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
