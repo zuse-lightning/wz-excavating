@@ -95,6 +95,10 @@
     transition: 0.5s!important;
 }
 
+.gravel-content-col:last-child {
+    grid-column: 3 / span 9!important;
+}
+
 #gravel-last-line {
     width: 90%;
     margin: 0 5%;
@@ -129,17 +133,17 @@
     }
 
     #gravel-content-container {
-        column-gap: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
-    .gravel-content-col:nth-child(5) {
-        grid-column: span 5;
-    }
+    /* .gravel-content-col {
+        grid-column: span 1!important;
+    } */
 
-    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
-    .gravel-content-col:nth-child(6) {
-        grid-column: span 7;
+    .gravel-content-col:nth-child(4) {
+        grid-row: 3;
     }
 
     .gravel-content-col:last-child {
@@ -168,7 +172,7 @@
     }
 
     .gravel-content-col:last-child {
-        padding: 10% 0;
+        grid-column: span 12!important;
     }
 
     .gravel-btn {

@@ -17,49 +17,37 @@
 .top-soil-header {
     font-family: 'Antonio', sans-serif;
     color: #482b7b;
-}
-
-#top-soil-content-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 100px;
-    row-gap: 20px;
-    width: 90%;
-    margin: 2% 5%;
-}
-
-.top-soil-content-col:nth-child(1), .top-soil-content-col:nth-child(4),
-.top-soil-content-col:nth-child(5) {
-    grid-column: span 5;
-}
-
-.top-soil-content-col:nth-child(2), .top-soil-content-col:nth-child(3),
-.top-soil-content-col:nth-child(6) {
-    grid-column: span 7;
-}
-
-.top-soil-content-col:last-child {
-    padding: 17.5% 0;
+    width: 50%!important;
+    margin: 2% 25%!important;
+    text-align: center;
 }
 
 .top-soil-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    width: 90%!important;
-    margin: 2% 5% 1%!important;
+    width: 80%!important;
+    margin: 2% 10% 1%!important;
+    font-size: 24px!important;
 }
 
 .top-soil-text {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+.top-soil-img {
+    width: 80%!important;
+    margin: 0 10%!important;
+    height: 700px!important;
+    object-fit: cover!important;
 }
 
 #top-soil-list {
-    width: 90%;
-    margin: 0 5%;
+    width: 40%;
+    margin: 0 30%;
 }
 
 .top-soil-list-item {

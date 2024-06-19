@@ -5,10 +5,15 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 const Gravel = (props) => {
+
+    const { screenWidth } = props;
+    let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/gravel.png";
+    let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/gravel-mobile.png";
+
     return (
         <>
             <div id="gravel-container">
-                <Image id="gravel-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/gravel.png"} fluid />
+                <Image id="gravel-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="gravel">
                     <p className="gravel-text">
                         Gravel is essential for a variety of construction, landscaping, and maintenance projects, offering both
@@ -65,7 +70,9 @@ const Gravel = (props) => {
                                 foundation for your gravel installation. This includes clearing and leveling the site, removing debris, and establishing the correct slope for
                                 optimal drainage. Our attention to detail in site preparation ensures the longevity and functionality of your gravel surfaces.
                             </p>
-                            <Header className="gravel-header" as="h1">Why Choose Us?</Header>
+                        </div>
+                        <div className="gravel-content-col">
+                        <Header className="gravel-header" as="h1">Why Choose Us?</Header>
                             <List id="gravel-list">
                                 <List.Item className="gravel-list-item">
                                     <List.Icon className="gravel-list-icon" name="check circle" />
