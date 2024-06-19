@@ -20,7 +20,7 @@ const TopSoil = (props) => {
                     </p>
                     <div id="top-soil-content-container">
                         <div className="top-soil-content-col">
-                            <Image className="top-soil-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/soil-testing.jpg"} />
+                            <Image className="top-soil-content-img first" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/soil-testing.jpg"} />
                         </div>
                         <div className="top-soil-content-col">
                             <Header className="top-soil-subheader" as="h3">Soil Testing and Analysis</Header>
@@ -52,10 +52,10 @@ const TopSoil = (props) => {
                             </p>
                         </div>
                         <div className="top-soil-content-col">
-                            <Image className="top-soil-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/erosion-control.jpg"} />
+                            <Image className="top-soil-content-img second" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/erosion-control.jpg"} />
                         </div>
                         <div className="top-soil-content-col">
-                            <Image className="top-soil-content-img" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/top-soil-supply.webp"} />
+                            <Image className="top-soil-content-img third" size="massive" src={"https://wz-excavating-bucket.s3.amazonaws.com/services/top-soil-supply.webp"} />
                         </div>
                         <div className="top-soil-content-col">
                             <Header className="top-soil-header" as="h1">Why Choose Us?</Header>
