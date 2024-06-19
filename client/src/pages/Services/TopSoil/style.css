@@ -202,6 +202,10 @@
         margin: 0 10%;
     }
 
+    #top-soil-banner {
+        height: auto;
+    }
+
     #top-soil-content-container {
         column-gap: 50px;
     }
@@ -227,6 +231,10 @@
     #top-soil {
         width: 100%;
         margin: 0 0%;
+    }
+
+    #top-soil-banner {
+        height: auto;
     }
 
     #top-soil-content-container {

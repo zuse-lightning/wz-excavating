@@ -7,13 +7,15 @@ import "./style.css";
 const TopSoil = (props) => {
 
     const { screenWidth } = props;
+    let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/top-soil.png";
+    let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/top-soil-mobile.png";
 
     return (
         <>
             <div id="top-soil-container">
-                <Image id="top-soil-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/top-soil.png"} fluid />
+                <Image id="top-soil-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="top-soil">
-                    <Header className="top-soil-header" as="h1">Top Soil</Header>
+                   {screenWidth >= 768 ? <Header className="top-soil-header" as="h1">Top Soil</Header> : null}
                     <p className="top-soil-text">
                         Maximize the health and productivity of your soil with our comprehensive topsoil services.
                         We offer expert solutions tailored to agriculture, landscaping, construction, and environmental conservation.
