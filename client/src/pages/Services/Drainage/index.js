@@ -10,7 +10,6 @@ const Drainage = (props) => {
             <div id="drainage-container">
                 <Image id="drainage-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/drainage.png"} fluid />
                 <div id="drainage">
-                    <Header className="drainage-header" as="h1">Drainage Systems & Trenches</Header>
                     <Header className="drainage-subheader" as="h3">Drainage Services</Header>
                     <p className="drainage-text">
                         Drainage services are essential for managing and directing water flow in residential,

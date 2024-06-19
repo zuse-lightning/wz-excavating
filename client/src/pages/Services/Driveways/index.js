@@ -10,7 +10,6 @@ const Driveways = (props) => {
         <div id="driveways-container">
             <Image id="driveways-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/driveways.png"} fluid />
             <div id="driveways">
-                <Header className="driveways-header" as="h1">Driveway Services</Header>
                 <Header className="driveways-subheader" as="h3">Driveway Design and Installation</Header>
                 <p className="driveways-text">
                     A well-designed and professionally installed driveway not only enhances the curb appeal 

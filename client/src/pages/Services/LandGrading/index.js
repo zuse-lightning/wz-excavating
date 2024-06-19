@@ -10,7 +10,6 @@ const LandGrading = (props) => {
             <div id="land-grading-container">
                 <Image id="land-grading-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/land-grading.png"} fluid />
                 <div id="land-grading">
-                    <Header className="land-grading-header" as="h1">Land Grading</Header>
                     <p className="land-grading-text">
                         Land grading services are fundamental for preparing a site for construction, landscaping, agriculture, and various other
                         applications. Proper land grading ensures a stable and level foundation, promotes effective drainage, and prevents issues

@@ -10,7 +10,6 @@ const Excavation = (props) => {
             <div id="excavation-container">
                 <Image id="excavation-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/excavation.png"} fluid />
                 <div id="excavation">
-                    <Header className="excavation-header" as="h1">Excavation</Header>
                     <p className="excavation-text">
                         Excavation is a critical component of construction, landscaping, and infrastructure projects,
                         involving the removal of soil, rock, and other materials to create foundations, trenches, and

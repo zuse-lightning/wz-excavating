@@ -101,3 +101,140 @@
     margin-top: 2%;
     text-align: center;
 }
+
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #gravel {
+        width: 70%;
+        margin: 0 15%;
+    }
+    #gravel-content-container {
+        column-gap: 50px;
+    }
+
+    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
+    .gravel-content-col:nth-child(5) {
+        grid-column: span 5;
+    }
+
+    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
+    .gravel-content-col:nth-child(6) {
+        grid-column: span 7;
+    }
+}
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    #gravel {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #gravel-content-container {
+        column-gap: 50px;
+    }
+
+    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
+    .gravel-content-col:nth-child(5) {
+        grid-column: span 5;
+    }
+
+    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
+    .gravel-content-col:nth-child(6) {
+        grid-column: span 7;
+    }
+
+    .gravel-content-col:last-child {
+        padding: 10% 0;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #gravel {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #gravel-content-container {
+        column-gap: 50px;
+    }
+
+    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
+    .gravel-content-col:nth-child(5) {
+        grid-column: span 5;
+    }
+
+    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
+    .gravel-content-col:nth-child(6) {
+        grid-column: span 7;
+    }
+
+    .gravel-content-col:last-child {
+        padding: 10% 0;
+    }
+
+    .gravel-btn {
+        width: 20%!important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #gravel {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #gravel-banner {
+        height: auto;
+    }
+
+    #gravel-content-container {
+        column-gap: 50px;
+    }
+
+    .gravel-content-col {
+        grid-column: span 12!important;
+    }
+
+    .gravel-content-col:nth-child(4) {
+        grid-row: 3;
+    }
+
+    .gravel-content-col:last-child {
+        padding: 10% 0;
+    }
+
+    .gravel-btn {
+        width: 30%!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #gravel {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #gravel-banner {
+        height: auto;
+    }
+
+    #gravel-content-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .gravel-content-col {
+        grid-column: span 1!important;
+    }
+    .gravel-content-col:nth-child(4) {
+        grid-row: 3;
+    }
+
+    .gravel-content-col:last-child {
+        padding: 10% 0;
+    }
+
+    .gravel-btn {
+        width: 40%!important;
+    }
+}

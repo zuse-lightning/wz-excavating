@@ -10,7 +10,6 @@ const Patios = (props) => {
             <div id="patios-container">
                 <Image id="patios-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png"} fluid />
                 <div id="patios">
-                    <Header className="patios-header" as="h1">Patios, Walks & Retaining Walls Services</Header>
                     <Header className="patios-subheader" as="h3">Patios Services</Header>
                     <p className="patios-text">
                         Patios are essential for creating versatile outdoor living spaces, perfect for relaxation, dining, and entertaining.

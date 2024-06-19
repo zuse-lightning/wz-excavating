@@ -10,7 +10,6 @@ const LawnCare = (props) => {
             <div id="lawn-care-container">
                 <Image id="lawn-care-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/lawn-care.png"} fluid />
                 <div id="lawn-care">
-                    <Header className="lawn-care-header" as="h1">Lawn Care</Header>
                     <Header className="lawn-care-subheader" as="h3">Lawn Maintenance</Header>
                     <p className="lawn-care-text">
                         A well-maintained lawn is the cornerstone of a beautiful landscape, enhancing

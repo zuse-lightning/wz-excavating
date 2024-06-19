@@ -10,7 +10,6 @@ const Landscape = (props) => {
             <div id="landscape-container">
                 <Image id="landscape-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/landscape.png"} fluid />
                 <div id="site-prep">
-                    <Header className="landscape-header" as="h1">Landscape Architecture</Header>
                     <Header className="landscape-subheader" as="h3">Landscape Planning and Design</Header>
                     <p className="landscape-text">
                         Landscape architecture is a multidisciplinary field that combines art and science to create functional, 

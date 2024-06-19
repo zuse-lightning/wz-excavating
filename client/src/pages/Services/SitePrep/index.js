@@ -10,7 +10,6 @@ const SitePrep = (props) => {
             <div id="site-prep-container">
                 <Image id="site-prep-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/site-prep.png"} fluid />
                 <div id="site-prep">
-                    <Header className="site-prep-header" as="h1">Site Preparation</Header>
                     <Header className="site-prep-subheader" as="h3">Site Clearing and Grading</Header>
                     <p className="site-prep-text">
                         Site preparation is a crucial first step in any construction or landscaping project, 

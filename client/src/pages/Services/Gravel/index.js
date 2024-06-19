@@ -10,7 +10,6 @@ const Gravel = (props) => {
             <div id="gravel-container">
                 <Image id="gravel-banner" src={"https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/gravel.png"} fluid />
                 <div id="gravel">
-                    <Header className="gravel-header" as="h1">Gravel</Header>
                     <p className="gravel-text">
                         Gravel is essential for a variety of construction, landscaping, and maintenance projects, offering both
                         functional and aesthetic benefits. From driveways and pathways to drainage systems and decorative landscaping, gravel

@@ -15,7 +15,6 @@ const TopSoil = (props) => {
             <div id="top-soil-container">
                 <Image id="top-soil-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="top-soil">
-                   {screenWidth >= 768 ? <Header className="top-soil-header" as="h1">Top Soil</Header> : null}
                     <p className="top-soil-text">
                         Maximize the health and productivity of your soil with our comprehensive topsoil services.
                         We offer expert solutions tailored to agriculture, landscaping, construction, and environmental conservation.
