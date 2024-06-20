@@ -19,69 +19,47 @@
     color: #482b7b;
 }
 
-#patios-content-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 100px;
-    row-gap: 20px;
-    width: 100%;
-    margin: 2% 0%;
-}
-
-.patios-content-col:nth-child(1), .patios-content-col:nth-child(4), 
-.patios-content-col:nth-child(7), .patios-content-col:nth-child(9) {
-    grid-column: 2 / span 5;
-}
-
-.patios-content-col:nth-child(2),
-.patios-content-col:nth-child(5),
-.patios-content-col:nth-child(8) {
-    grid-column: span 5;
-    margin-top: 10%;
-}
-
-.patios-content-col:nth-child(3), .patios-content-col:nth-child(6) {
-    grid-column: span 12;
-}
-
-.patios-content-img {
-    padding: 10% 0;
-}
-
 .patios-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    /* width: 90%!important; */ 
-    margin: 2% 5% 1%!important;
+    width: 80%!important;
+    margin: 2% 10% 1%!important;
+    font-size: 24px!important;
 }
 
 .patios-text {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 2% 10%;
 }
 
 .patios-list {
-    width: 80%;
-    margin: 5% 10% 0!important;
+    width: 60%;
+    margin: 0 0% 2% 15%!important;
 }
 
 .patios-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #482b7b;
     margin-bottom: 2%;
 }
 .patios-sub-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     color: #000;
     margin-bottom: 0%;
+}
 
+.patios-img {
+    width: 80%!important;
+    margin: 0 10%!important;
+    height: 700px!important;
+    object-fit: cover!important;
 }
 
 .patios-bold-text {
@@ -114,4 +92,146 @@
     margin: 0 5%;
     margin-top: 2%;
     text-align: center;
+}
+
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #patios {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    #patios {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .patios-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .patios-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .patios-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #patios {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .patios-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .patios-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .patios-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    .patios-btn {
+        width: 20%!important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #patios {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #patios-banner {
+        height: auto;
+    }
+
+    .patios-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .patios-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .patios-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    .patios-header {
+        margin-top: 5%!important;
+    }
+
+    .patios-list {
+        width: 60%;
+        margin: 0 20% 5%!important;
+    }
+
+    .patios-btn {
+        width: 30%!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #patios {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #patios-banner {
+        height: auto;
+    }
+
+    .patios-text {
+        width: 90%;
+        margin: 2% 5% 10%;
+    }
+
+    .patios-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 300px!important;
+        object-fit: cover!important;
+    }
+
+    .patios-subheader {
+        width: 90%!important;
+        margin: 10% 5% 3%!important;
+    }
+
+    .patios-header {
+        width: 70%!important;
+        margin: 10% 15% 5%!important;
+    }
+
+    .patios-list {
+        width: 80%;
+        margin: 0 10% 10%!important;
+    }
+
+    .patios-btn {
+        width: 40%!important;
+    }
 }
