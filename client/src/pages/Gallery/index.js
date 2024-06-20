@@ -18,14 +18,12 @@ const Gallery = (props) => {
             <div id="gallery-container">
                 <Header id="gallery-header" as="h1">Gallery</Header>
                 <Header id="gallery-subheader" as="h3">Click on an image to view full size</Header>
-
                 <PhotoAlbum
                     layout="masonry"
                     photos={galleryThumbnails}
                     targetRowHeight={400}
                     onClick={({ index: current }) => setIndex(current)}
                 />
-
                 <Lightbox
                     plugins={[Fullscreen]}
                     index={index}

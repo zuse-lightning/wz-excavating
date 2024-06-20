@@ -6,10 +6,17 @@
 
 #gallery-header, #gallery-subheader {
     text-align: center;
+    font-family: 'Antonio', sans-serif;
 }
 
 .gallery-modal-trigger {
     cursor: pointer;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 991px) {
+    #gallery-header {
+        margin-top: 2%;
+    }
 }
