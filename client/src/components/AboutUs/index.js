@@ -10,9 +10,9 @@ const AboutUs = () => {
             <div id="about-us">
                 <div className="about-us-col">
                     <Header id="about-us-header" as="h1">About Us</Header>
-                    <Header id="about-us-subheader" as="h4">Family owned and operated since 2021</Header>
+                    <Header id="about-us-subheader" as="h4">Family owned and operated since 2004</Header>
                     <p className="about-us-text">
-                        WZ Excavating is a family-owned and operated business located in Danbury, CT. We have been serving the Fairfield County area for over 20 years. We specialize in residential and commercial excavation, septic system installation, and site work. Our team is dedicated to providing the highest quality service and customer satisfaction.
+                        WZ Excavating is a family-owned and operated business located in Snohomish County. We have been serving the area for over 20 years. We specialize in residential and commercial excavation, septic system installation, and site work. Our team is dedicated to providing the highest quality service and customer satisfaction.
                     </p>
                     <p className="about-us-text">
                         We are fully licensed and insured. Our team of professionals is experienced and trained to handle any excavation project. We take pride in our work and strive to exceed our customers' expectations.
