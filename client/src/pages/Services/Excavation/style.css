@@ -17,49 +17,37 @@
 .excavation-header {
     font-family: 'Antonio', sans-serif;
     color: #482b7b;
-}
-
-#excavation-content-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 100px;
-    row-gap: 20px;
-    width: 90%;
-    margin: 2% 5%;
-}
-
-.excavation-content-col:nth-child(1), .excavation-content-col:nth-child(4),
-.excavation-content-col:nth-child(5) {
-    grid-column: span 5;
-}
-
-.excavation-content-col:nth-child(2), .excavation-content-col:nth-child(3),
-.excavation-content-col:nth-child(6) {
-    grid-column: span 7;
-}
-
-.excavation-content-img {
-    padding: 10% 0;
+    width: 50%!important;
+    margin: 2% 25%!important;
+    text-align: center;
 }
 
 .excavation-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    width: 90%!important;
-    margin: 2% 5% 1%!important;
+    width: 80%!important;
+    margin: 2% 10% 1%!important;
+    font-size: 24px!important;
 }
 
 .excavation-text {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+.excavation-img {
+    width: 80%!important;
+    margin: 0 10%!important;
+    height: 700px!important;
+    object-fit: cover!important;
 }
 
 #excavation-list {
-    width: 90%;
-    margin: 0 5%;
+    width: 40%;
+    margin: 0 30%;
 }
 
 .excavation-list-item {
@@ -100,4 +88,156 @@
     margin: 0 5%;
     margin-top: 2%;
     text-align: center;
+}
+
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #excavation {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    #excavation {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .excavation-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .excavation-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .excavation-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    #excavation-list {
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #excavation {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .excavation-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .excavation-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .excavation-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    #excavation-list {
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    .excavation-btn {
+        width: 20%!important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #excavation {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #excavation-banner {
+        height: auto;
+    }
+
+    .excavation-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .excavation-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .excavation-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    .excavation-header {
+        margin-top: 5%!important;
+    }
+
+    #excavation-list {
+        width: 60%;
+        margin: 0 20% 5%;
+    }
+
+    .excavation-btn {
+        width: 30%!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #excavation {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #excavation-banner {
+        height: auto;
+    }
+
+    .excavation-text {
+        width: 90%;
+        margin: 2% 5% 10%;
+    }
+
+    .excavation-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 300px!important;
+        object-fit: cover!important;
+    }
+
+    .excavation-subheader {
+        width: 90%!important;
+        margin: 10% 5% 3%!important;
+    }
+
+    .excavation-header {
+        width: 70%!important;
+        margin: 10% 15% 5%!important;
+    }
+
+    #excavation-list {
+        width: 80%;
+        margin: 0 10% 10%;
+    }
+
+    .excavation-btn {
+        width: 40%!important;
+    }
 }
