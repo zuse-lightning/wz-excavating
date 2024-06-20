@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Icon, Image, List } from "semantic-ui-react";
+import { Header, Icon, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "./style.css";
@@ -8,7 +8,6 @@ const Footer = () => {
     return (
         <div id="footer-container">
             <div id="footer">
-
                 <div className="footer-col">
                     <Header as="h3" className="footer-header">About Us</Header>
                     <p className="footer-text" id="footer-about">
@@ -19,7 +18,7 @@ const Footer = () => {
                 <div className="footer-col">
                     <Header as="h3" className="footer-header">Contact Information</Header>
                     <p className="footer-text" id="footer-contact-info">
-                        <Icon className="footer-icon" name="map marker alternate" />1323 Ave D Unit 1129, Snohomish, WA 98291<br />
+                        <Icon className="footer-icon" name="map marker alternate" />17217 157th Ave SE, Snohomish, WA 98290<br />
                         <Icon className="footer-icon" name="phone" />(203) 738-8106<br />
                         <Icon className="footer-icon" name="mail" /> tyler@wzexcavating.com<br />
                     </p>
