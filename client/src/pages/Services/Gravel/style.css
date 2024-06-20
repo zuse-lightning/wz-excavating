@@ -17,49 +17,37 @@
 .gravel-header {
     font-family: 'Antonio', sans-serif;
     color: #482b7b;
-}
-
-#gravel-content-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 100px;
-    row-gap: 20px;
-    width: 90%;
-    margin: 2% 5%;
-}
-
-.gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
-.gravel-content-col:nth-child(5) {
-    grid-column: span 5;
-}
-
-.gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
-.gravel-content-col:nth-child(6) {
-    grid-column: span 7;
-}
-
-.gravel-content-img {
-    padding: 10% 0;
+    width: 50%!important;
+    margin: 2% 25%!important;
+    text-align: center;
 }
 
 .gravel-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    width: 90%!important;
-    margin: 2% 5% 1%!important;
+    width: 80%!important;
+    margin: 2% 10% 1%!important;
+    font-size: 24px!important;
 }
 
 .gravel-text {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+.gravel-img {
+    width: 80%!important;
+    margin: 0 10%!important;
+    height: 700px!important;
+    object-fit: cover!important;
 }
 
 #gravel-list {
-    width: 90%;
-    margin: 0 5%;
+    width: 40%;
+    margin: 0 30%;
 }
 
 .gravel-list-item {
@@ -95,10 +83,6 @@
     transition: 0.5s!important;
 }
 
-.gravel-content-col:last-child {
-    grid-column: 3 / span 9!important;
-}
-
 #gravel-last-line {
     width: 90%;
     margin: 0 5%;
@@ -111,19 +95,6 @@
         width: 70%;
         margin: 0 15%;
     }
-    #gravel-content-container {
-        column-gap: 50px;
-    }
-
-    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
-    .gravel-content-col:nth-child(5) {
-        grid-column: span 5;
-    }
-
-    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
-    .gravel-content-col:nth-child(6) {
-        grid-column: span 7;
-    }
 }
 
 @media (max-width: 1699px) and (min-width: 1200px) {
@@ -132,22 +103,26 @@
         margin: 0 10%;
     }
 
-    #gravel-content-container {
-        grid-template-columns: repeat(1, 1fr);
+    .gravel-text {
         width: 90%;
         margin: 2% 5%;
     }
 
-    /* .gravel-content-col {
-        grid-column: span 1!important;
-    } */
-
-    .gravel-content-col:nth-child(4) {
-        grid-row: 3;
+    .gravel-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .gravel-content-col:last-child {
-        padding: 10% 0;
+    .gravel-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    #gravel-list {
+        width: 50%;
+        margin: 0 25%;
     }
 }
 
@@ -157,22 +132,26 @@
         margin: 0 10%;
     }
 
-    #gravel-content-container {
-        column-gap: 50px;
+    .gravel-text {
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .gravel-content-col:nth-child(1), .gravel-content-col:nth-child(4),
-    .gravel-content-col:nth-child(5) {
-        grid-column: span 5;
+    .gravel-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .gravel-content-col:nth-child(2), .gravel-content-col:nth-child(3),
-    .gravel-content-col:nth-child(6) {
-        grid-column: span 7;
+    .gravel-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
     }
 
-    .gravel-content-col:last-child {
-        grid-column: span 12!important;
+    #gravel-list {
+        width: 50%;
+        margin: 0 25%;
     }
 
     .gravel-btn {
@@ -182,28 +161,38 @@
 
 @media (max-width: 991px) and (min-width: 768px) {
     #gravel {
-        width: 80%;
-        margin: 0 10%;
+        width: 100%;
+        margin: 0 0%;
     }
 
     #gravel-banner {
         height: auto;
     }
 
-    #gravel-content-container {
-        column-gap: 50px;
+    .gravel-text {
+        width: 90%;
+        margin: 2% 5%;
     }
 
-    .gravel-content-col {
-        grid-column: span 12!important;
+    .gravel-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
     }
 
-    .gravel-content-col:nth-child(4) {
-        grid-row: 3;
+    .gravel-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
     }
 
-    .gravel-content-col:last-child {
-        padding: 10% 0;
+    .gravel-header {
+        margin-top: 5%!important;
+    }
+
+    #gravel-list {
+        width: 60%;
+        margin: 0 20% 5%;
     }
 
     .gravel-btn {
@@ -221,21 +210,31 @@
         height: auto;
     }
 
-    #gravel-content-container {
-        grid-template-columns: repeat(1, 1fr);
+    .gravel-text {
         width: 90%;
-        margin: 2% 5%;
+        margin: 2% 5% 10%;
     }
 
-    .gravel-content-col {
-        grid-column: span 1!important;
-    }
-    .gravel-content-col:nth-child(4) {
-        grid-row: 3;
+    .gravel-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 300px!important;
+        object-fit: cover!important;
     }
 
-    .gravel-content-col:last-child {
-        padding: 10% 0;
+    .gravel-subheader {
+        width: 90%!important;
+        margin: 10% 5% 3%!important;
+    }
+
+    .gravel-header {
+        width: 70%!important;
+        margin: 10% 15% 5%!important;
+    }
+
+    #gravel-list {
+        width: 80%;
+        margin: 0 10% 10%;
     }
 
     .gravel-btn {

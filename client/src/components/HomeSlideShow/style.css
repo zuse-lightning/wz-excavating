@@ -6,7 +6,7 @@
 .home-slideshow-slider {
     white-space: nowrap;
     transition: ease 1s;
-    margin-bottom: -0.3%;
+    margin-bottom: -0.35%;
 }
 
 .home-slide {
@@ -37,7 +37,7 @@
 
 @media (max-width: 2030px) and (min-width: 1700px) { 
     .home-slideshow-slider {
-        margin-bottom: -0.3%;
+        margin-bottom: -0.35%;
     }
 }
 
