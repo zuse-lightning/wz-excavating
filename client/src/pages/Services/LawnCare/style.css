@@ -19,73 +19,46 @@
     color: #482b7b;
 }
 
-#lawn-care-content-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 100px;
-    row-gap: 20px;
-    width: 100%;
-    margin: 2% 0%;
-}
-
-.lawn-care-content-col:nth-child(1), .lawn-care-content-col:nth-child(4), 
-.lawn-care-content-col:nth-child(7), .lawn-care-content-col:nth-child(9) {
-    grid-column: 2 / span 5;
-}
-
-.lawn-care-content-col:nth-child(2),
-.lawn-care-content-col:nth-child(5),
-.lawn-care-content-col:nth-child(8) {
-    grid-column: span 5;
-}
-
-.lawn-care-content-col:nth-child(2),
-.lawn-care-content-col:nth-child(4),
-.lawn-care-content-col:nth-child(8) {
-    margin-top: 10%;
-}
-
-.lawn-care-content-col:nth-child(3), .lawn-care-content-col:nth-child(6) {
-    grid-column: span 12;
-}
-
-.lawn-care-content-img {
-    padding: 10% 0;
-}
-
 .lawn-care-subheader {
     font-family: 'Antonio', sans-serif;
     color: #482b7b!important;
-    /* width: 90%!important; */ 
-    margin: 2% 5% 1%!important;
+    width: 80%!important;
+    margin: 2% 10% 1%!important;
+    font-size: 24px!important;
 }
 
 .lawn-care-text {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 2% 10%;
 }
 
 .lawn-care-list {
-    width: 80%;
-    margin: 5% 10% 0!important;
+    width: 60%;
+    margin: 0 0% 2% 15%!important;
 }
 
 .lawn-care-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     margin-bottom: 2%;
 }
 .lawn-care-sub-list-item {
     font-family: 'Antonio', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     color: #000;
     margin-bottom: 0%;
+}
 
+.lawn-care-img {
+    width: 80%!important;
+    margin: 0 10%!important;
+    height: 700px!important;
+    object-fit: cover!important;
 }
 
 .lawn-care-bold-text {
@@ -118,4 +91,146 @@
     margin: 0 5%;
     margin-top: 2%;
     text-align: center;
+}
+
+@media (max-width: 2053px) and (min-width: 1700px) {
+    #lawn-care {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    #lawn-care {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .lawn-care-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .lawn-care-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .lawn-care-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #lawn-care {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .lawn-care-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .lawn-care-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .lawn-care-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    .lawn-care-btn {
+        width: 20%!important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #lawn-care {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #lawn-care-banner {
+        height: auto;
+    }
+
+    .lawn-care-text {
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+    .lawn-care-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 600px!important;
+        object-fit: cover!important;
+    }
+
+    .lawn-care-subheader {
+        width: 90%!important;
+        margin: 2% 5% 1%!important;
+    }
+
+    .lawn-care-header {
+        margin-top: 5%!important;
+    }
+
+    .lawn-care-list {
+        width: 60%;
+        margin: 0 20% 5%!important;
+    }
+
+    .lawn-care-btn {
+        width: 30%!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #lawn-care {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    #lawn-care-banner {
+        height: auto;
+    }
+
+    .lawn-care-text {
+        width: 90%;
+        margin: 2% 5% 10%;
+    }
+
+    .lawn-care-img {
+        width: 90%!important;
+        margin: 0 5%!important;
+        height: 300px!important;
+        object-fit: cover!important;
+    }
+
+    .lawn-care-subheader {
+        width: 90%!important;
+        margin: 10% 5% 3%!important;
+    }
+
+    .lawn-care-header {
+        width: 70%!important;
+        margin: 10% 15% 5%!important;
+    }
+
+    .lawn-care-list {
+        width: 80%;
+        margin: 0 10% 10%!important;
+    }
+
+    .lawn-care-btn {
+        width: 40%!important;
+    }
 }
