@@ -13,7 +13,7 @@
 
 #contact-header1 {
     color: white!important;
-    margin: 2% 0;
+    /* margin: 2% 0; */
 }
 
 #contact-info {
@@ -48,4 +48,67 @@
 
 .contact-col:last-child {
     grid-column: span 3;
+}
+
+@media (max-width: 2053px) and (min-width: 1407px) {
+    #contact-container {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 1406px) and (min-width: 1250px) {
+    #contact-container {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 1249px) and (min-width: 992px) {
+    .contact-col, .contact-col:nth-child(2) {
+        grid-column: span 3;
+    }
+
+    #contact-info {
+        width: 60%;
+        margin: 0% 20% 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #contact-container {
+        width: 80%;
+        margin: 0 10%;
+    }
+    .contact-col, .contact-col:nth-child(2) {
+        grid-column: span 3;
+    }
+
+    #contact-info {
+        width: 60%;
+        margin: 0% 20% 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .contact-col:not(:last-child) {
+        padding: 5%;
+    }
+
+    #contact-container {
+        width: 100%;
+        margin: 0 0;
+        padding: 0;
+    }
+
+    .contact-col, .contact-col:nth-child(2) {
+        grid-column: span 3;
+    }
+
+    #contact-info {
+        width: 80%;
+        margin: 0% 10% 0;
+        font-size: 18px;
+    }
 }

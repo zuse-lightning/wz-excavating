@@ -56,3 +56,56 @@
 .contact-form-col:last-child {
     grid-column: 3 / span 2;
 }
+
+@media (max-width: 1249px) and (min-width: 992px) {
+    #contact-form {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    .contact-form-col:has(.form-label) {
+        grid-column: 1 / span 1;
+    }
+
+    .form-input {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    #contact-form {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    .contact-form-col:has(.form-label) {
+        grid-column: 1 / span 1;
+    }
+
+    .form-input {
+        width: 100%!important;
+    }
+
+    .contact-form-col:last-child {
+        grid-column: 2 / span 3;
+    }
+}
+
+@media (max-width: 767px) {
+    #contact-form {
+        width: 100%;
+        margin: 0 0%;
+    }
+
+    .contact-form-col:has(.form-label) {
+        grid-column: 1 / span 1;
+    }
+
+    .form-input {
+        width: 100%!important;
+    }
+
+    .contact-form-col:last-child {
+        grid-column: 2 / span 5;
+    }
+}
