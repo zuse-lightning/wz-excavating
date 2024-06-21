@@ -73,3 +73,26 @@
 .quote-form-col:last-child {
     grid-column: 3 / span 2;
 }
+
+@media (max-width: 1699px) and (min-width: 1200px) {
+    .quote-form-col:last-child {
+        grid-column: 3 / span 2;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .quote-form-col:last-child {
+        grid-column: 2 / span 3;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 801px) {
+    .quote-form-col:last-child {
+        grid-column: 2 / span 3;
+    }
+
+    #quote-form {
+        width: 100%;
+        margin: 0 0%;
+    }
+}
