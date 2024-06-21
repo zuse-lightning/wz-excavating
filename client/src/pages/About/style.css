@@ -16,6 +16,10 @@
     max-height: 800px;
 }
 
+.about-col:first-child::-webkit-scrollbar {
+    display: none;
+}
+
 #about-contact-info {
     background-color: #482b7b;
     padding: 5%;
