@@ -1,12 +1,9 @@
-import React, { createRef } from "react";
-import { Header, List, Sticky, } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Header, List } from "semantic-ui-react";
 
 import "./style.css";
 
 const About = (props) => {
-
-    const { screenWidth } = props;
 
     return (
         <>

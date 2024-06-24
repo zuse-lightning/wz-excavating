@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Image, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { serviceSlidesMobile } from "../../assets";
@@ -6,8 +6,6 @@ import { serviceSlidesMobile } from "../../assets";
 import "./style.css";
 
 const OurServices = (props) => {
-
-    const { screenWidth } = props;
     
     const services = [
         { img: serviceSlidesMobile[0], path: "/services/top-soil" },

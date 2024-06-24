@@ -1,6 +1,5 @@
 import React from "react";
 import { Icon, Header } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 import ContactForm from "../../components/ContactForm";
 
 import "./style.css";

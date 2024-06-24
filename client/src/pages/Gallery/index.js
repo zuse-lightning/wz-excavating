@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Image, Header, Button } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Header } from "semantic-ui-react";
 import { PhotoAlbum } from "react-photo-album";
 import { Lightbox } from "yet-another-react-lightbox";
 import { Fullscreen } from "yet-another-react-lightbox/plugins";

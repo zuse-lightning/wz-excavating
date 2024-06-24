@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Icon,  Image, Dropdown } from "semantic-ui-react";
+import { Menu, Image, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "../style.css";
@@ -51,14 +51,6 @@ const DesktopNavbar = (props) => {
                     ))}
                 </Dropdown.Menu>
             </Menu.Item>
-            {/* <Menu.Item
-                className="header-nav-item"
-                as={Link}
-                to="/equipment"
-                name="equipment"
-            >
-                Equipment
-            </Menu.Item> */}
             <Menu.Item
                 className="header-nav-item"
                 as={Link}
