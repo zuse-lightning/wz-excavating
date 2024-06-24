@@ -59,9 +59,6 @@ const AboutUs = () => {
                     </List>
                 </div>
             </div>
-
-
-
         </div>
     );
 };
