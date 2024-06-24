@@ -36,3 +36,24 @@ export const galleryThumbnails = [
     { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/driveway-design.jpg", width: 3840, height: 2160 },
     { src: "https://wz-excavating-bucket.s3.amazonaws.com/services/ecological-landscaping.webp", width: 3840, height: 2160 }
 ];
+
+export const testimonials = [
+    { 
+        id: 1, 
+        name: "Sarah T.", 
+        location: "Snohomish, WA", 
+        review: "WZ Trucking & Excavation completely transformed our backyard with a beautiful patio and walkways. The team was incredibly professional, efficient, and detail-oriented. They worked closely with us to understand our vision and delivered results that exceeded our expectations. Our outdoor space is now the envy of the neighborhood! We highly recommend WZ for any landscaping project."
+    },
+    { 
+        id: 2, 
+        name: "Mark R.", 
+        location: "Everett, WA", 
+        review: "We hired WZ Trucking & Excavation to handle the site preparation for our new commercial building, and they did an outstanding job. From grading to drainage systems, their expertise was evident in every phase of the project. They completed the work on time and within budget, and the quality was top-notch. Their attention to detail and commitment to excellence make them a trusted partner for any construction needs."
+    },
+    { 
+        id: 3, 
+        name: "Lisa M.", 
+        location: "Lake Stevens, WA", 
+        review: "WZ Trucking & Excavation did an amazing job on our driveway and retaining walls. The team was friendly, professional, and clearly passionate about their work. They provided great suggestions that improved the functionality and look of our property. The project was completed efficiently, and the results are stunning. We couldn’t be happier with their services and would definitely work with them again in the future."
+    }
+]
