@@ -74,10 +74,31 @@
     }
 }
 
-@media (max-width: 991px) and (min-width: 801px) {
+@media (max-width: 991px) and (min-width: 768px) {
     #quote-container {
         width: 90%;
         margin: 0 5%;
+        padding: 5% 0;
+    }
+
+    #quote {
+        row-gap: 40px;
+    }
+
+    .quote-col:nth-child(1), .quote-col:nth-child(2) {
+        grid-column: span 3;
+    }
+}
+
+@media (max-width: 767px) {
+    #quote-container {
+        width: 90%;
+        margin: 0 5%;
+        padding: 5% 0;
+    }
+
+    #quote {
+        row-gap: 40px;
     }
 
     .quote-col:nth-child(1), .quote-col:nth-child(2) {

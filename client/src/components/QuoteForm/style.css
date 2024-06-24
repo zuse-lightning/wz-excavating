@@ -86,7 +86,7 @@
     }
 }
 
-@media (max-width: 991px) and (min-width: 801px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .quote-form-col:last-child {
         grid-column: 2 / span 3;
     }
@@ -94,5 +94,17 @@
     #quote-form {
         width: 100%;
         margin: 0 0%;
+    }
+}
+
+@media (max-width: 767px) {
+    .quote-form-col:last-child {
+        grid-column: span 12;
+    }
+
+    #quote-form {
+        width: 100%;
+        margin: 0 0%;
+        column-gap: 5px;
     }
 }
