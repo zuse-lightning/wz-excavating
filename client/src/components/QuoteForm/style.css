@@ -70,24 +70,24 @@
     transition: 0.5s;
 }
 
-.quote-form-col:last-child {
+.quote-form-col:has(#quote-submit-btn) {
     grid-column: 3 / span 2;
 }
 
 @media (max-width: 1699px) and (min-width: 1200px) {
-    .quote-form-col:last-child {
+    .quote-form-col:has(#quote-submit-btn) {
         grid-column: 3 / span 2;
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-    .quote-form-col:last-child {
+    .quote-form-col:has(#quote-submit-btn) {
         grid-column: 2 / span 3;
     }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    .quote-form-col:last-child {
+    .quote-form-col:has(#quote-submit-btn) {
         grid-column: 2 / span 3;
     }
 
@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 767px) {
-    .quote-form-col:last-child {
+    .quote-form-col:has(#quote-submit-btn) {
         grid-column: span 12;
     }
 
