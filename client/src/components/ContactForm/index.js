@@ -36,6 +36,10 @@ const ContactForm = (props) => {
         });
     };
 
+    if (submitted) {
+        navigate("/");
+    }
+
     return (
         <>
             <form
