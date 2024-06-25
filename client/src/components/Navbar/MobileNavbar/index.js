@@ -6,19 +6,7 @@ import "../style.css";
 
 const MobileNavbar = (props) => {
 
-    const { screenWidth } = props;
     const [mainVisible, setMainVisible] = useState(false);
-
-    let logoSize;
-
-    if (screenWidth <= 768) {
-        logoSize = "small";
-    } else {
-        logoSize = "medium";
-    };
-
-    console.log(logoSize);
-    console.log(screenWidth);
 
     return (
         <Menu id="mobile-main-menu" pointing secondary fluid>
