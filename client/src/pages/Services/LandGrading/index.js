@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, Button, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const LandGrading = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/land-grading.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/land-grading-mobile.png";
+    const landGradingUrl = whichWebsite(location, "https://www.wzexcavating.com/services/land-grading", "https://www.wzexcavatingllc.com/services/land-grading");
 
     return (
         <>
+            <SEO 
+                title="Land Grading | WZ Trucking & Excavation"
+                description="Land grading services are fundamental for preparing a site for construction, landscaping, agriculture, and various other applications. Our professional land grading services are designed to meet the specific requirements of your project, ensuring optimal results and long-term success."
+                keywords="Land Grading, Site Preparation, Land Leveling, Drainage Solutions, Foundation Preparation, Landscape Shaping, Aesthetic Enhancement, Grading Solutions, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Land+Grading.png"
+                url={landGradingUrl}
+            />
             <div id="land-grading-container">
                 <Image id="land-grading-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="land-grading">

@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, Button, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Excavation = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/excavation.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/excavation-mobile.png";
+    const excavationUrl = whichWebsite(location, "https://www.wzexcavating.com/services/excavation", "https://www.wzexcavatingllc.com/services/excavation");
 
     return (
         <>
+            <SEO 
+                title="Excavation | WZ Trucking & Excavation"
+                description="Excavation is a critical component of construction, landscaping, and infrastructure projects, involving the removal of soil, rock, and other materials to create foundations, trenches, and other necessary features. Our professional excavation services are designed to meet the diverse needs of residential, commercial, and industrial projects, ensuring precision, safety, and efficiency."
+                keywords="Excavation, Foundation Excavation, Trenching, Utility Installation, Site Preparation, Grading, Land Clearing, Demolition, Landscaping Projects, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Excavation.png"
+                url={excavationUrl}
+            />
             <div id="excavation-container">
                 <Image id="excavation-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="excavation">

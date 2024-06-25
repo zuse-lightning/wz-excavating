@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, Button, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Drainage = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/drainage.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/drainage-mobile.png";
+    const drainageUrl = whichWebsite(location, "https://www.wzexcavating.com/services/drainage", "https://www.wzexcavatingllc.com/services/drainage");
 
     return (
         <>
+            <SEO 
+                title="Drainage Systems & Trenches | WZ Trucking & Excavation"
+                description="WZ Trucking & Excavating provides drainage services for residential, commercial, and industrial properties. We install, maintain, and repair drainage systems to prevent water accumulation and protect your property."
+                keywords="Drainage Systems, Trenches, Drainage Installation, Drainage Maintenance, Drainage Repair, Trench Planning, Utility Installation, Drainage Solutions, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Drainage.png"
+                url={drainageUrl}
+            />
             <div id="drainage-container">
                 <Image id="drainage-banner" src={screenWidth >= 1100 ? desktopBanner : mobileBanner} fluid />
                 <div id="drainage">
