@@ -16,8 +16,10 @@
     "react-hook-form": "^7.49.3",
     "react-photo-album": "^2.4.0",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
     "semantic-ui-react": "^2.1.5",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4",
     "yet-another-react-lightbox": "^1.1.1"
   },

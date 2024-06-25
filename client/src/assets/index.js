@@ -55,5 +55,11 @@ export const testimonials = [
         name: "Lisa M.", 
         location: "Lake Stevens, WA", 
         review: "WZ Trucking & Excavation did an amazing job on our driveway and retaining walls. The team was friendly, professional, and clearly passionate about their work. They provided great suggestions that improved the functionality and look of our property. The project was completed efficiently, and the results are stunning. We couldn’t be happier with their services and would definitely work with them again in the future."
+    },
+    {
+        id: 4,
+        name: "John H.",
+        location: "Monroe, WA",
+        review: "We hired WZ Trucking & Excavation for a major landscaping overhaul, including a new lawn, topsoil, and a gravel driveway. The team was incredible from start to finish! They were punctual, professional, and went above and beyond to ensure every detail was perfect. The quality of their work was exceptional, and our property has never looked better. We’re thrilled with the results and highly recommend WZ for any landscaping or excavation project."
     }
 ]
