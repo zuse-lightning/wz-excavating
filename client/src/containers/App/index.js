@@ -15,6 +15,29 @@ import Footer from "../../components/Footer";
 
 import "./style.css";
 
+export const useCurrentUrl = () => {
+    const [currentUrl, setCurrentUrl] = useState(window.location.href);
+
+    useEffect(() => {
+        const handlePageLoad = () => {
+            setCurrentUrl(window.location.href);
+        }
+        window.addEventListener("load", handlePageLoad);
+        return window.removeEventListener("load", handlePageLoad);
+    }, []);
+
+    return currentUrl;
+}
+
+export const whichWebsite = (url, wzElement, llcElement) => {
+    if (url.includes("wzexcavating.com")) {
+        return wzElement;
+    } else if (url.includes("wzexcavatingllc.com")) {
+        return llcElement;
+    } else if (url.includes("localhost")) {
+        return wzElement;
+    }
+};
 
 const getWindowDimensions = () => {
     const page = document.querySelector("html");
@@ -51,12 +74,12 @@ const App = () => {
                 <Sidebar.Pusher>
                     <div id="main-container">
                         <Routes>
-                            <Route exact path="/" element={<Home screenWidth={width} />} />
-                            <Route exact path="/about" element={<About screenWidth={width} />} />
-                            <Route exact path="/services/*" element={<Services screenWidth={width} />} />
-                            <Route exact path="/gallery" element={<Gallery />} />
-                            <Route exact path="/contact" element={<Contact />} />
-                            <Route exact path="/quotes" element={<Quotes />} />
+                            <Route exact path="/" element={<Home location={useCurrentUrl()} whichWebsite={whichWebsite} screenWidth={width} />} />
+                            <Route exact path="/about" element={<About location={useCurrentUrl()} whichWebsite={whichWebsite} screenWidth={width} />} />
+                            <Route exact path="/services/*" element={<Services location={useCurrentUrl()} whichWebsite={whichWebsite} screenWidth={width} />} />
+                            <Route exact path="/gallery" element={<Gallery location={useCurrentUrl()} whichWebsite={whichWebsite} />} />
+                            <Route exact path="/contact" element={<Contact location={useCurrentUrl()} whichWebsite={whichWebsite} />} />
+                            <Route exact path="/quotes" element={<Quotes location={useCurrentUrl()} whichWebsite={whichWebsite} />} />
                         </Routes>
                     </div>
                 </Sidebar.Pusher>
