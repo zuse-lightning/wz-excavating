@@ -23,7 +23,19 @@
 }
 
 .testimonial-col {
-    padding: 5%;
+    padding: 2%;
+}
+
+.slick-slider {
+    margin-left: -3%;
+}
+
+.slick-prev:before, .slick-next:before {
+   font-size: 40px!important;
+}
+
+.slick-prev:before {
+   margin-left: -30px;
 }
 
 .testimonial-icon {
@@ -44,8 +56,8 @@
 
 @media (max-width: 2053px) and (min-width: 1700px) {
     #testimonials {
-        width: 80%;
-        margin: 0 10%;
+        width: 60%;
+        margin: 0 20%;
     }
 
     .testimonial-text {
@@ -56,22 +68,29 @@
 
 @media (max-width: 1699px) and (min-width: 1200px) {
     #testimonials {
-        width: 80%;
-        margin: 0 10%;
-        column-gap: 40px;
+        width: 70%;
+        margin: 0 15%;
     }
+
+    .slick-slider {
+        margin-left: -2%;
+    }
+
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
     #testimonials {
         width: 90%;
         margin: 0 5%;
-        column-gap: 40px;
     }
 
     .testimonial-text {
         font-size: 16px;
         line-height: 30px;
+    }
+
+    .slick-slider {
+        margin-left: 1%;
     }
 }
 
@@ -79,8 +98,6 @@
     #testimonials {
         width: 50%;
         margin: 5% 25%;
-        row-gap: 40px;
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .testimonial-text {
