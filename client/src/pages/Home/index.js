@@ -6,7 +6,8 @@ import SEO from "../../components/SEO";
 
 const Home = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
+    const homeUrl = whichWebsite(location, "https://www.wzexcavating.com", "https://www.wzexcavatingllc.com");
 
     return (
         <>
@@ -16,7 +17,7 @@ const Home = (props) => {
                 keywords="WZ Trucking & Excavating, Snohomish, WA, Snohomish County, Top Soil, Gravel, Land Grading, Excavation, Drainage Systems & Trenches, Patio, Walks and Retaining Walls, Lawn Care, Site Preparation, Driveways, Landscape Architecture"
                 type="website"
                 image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Home.png"
-                url="https://www.wzexcavating.com"
+                url={homeUrl}
             />
             <HomeSlideShow screenWidth={screenWidth} />
             <AboutUs screenWidth={screenWidth} />
