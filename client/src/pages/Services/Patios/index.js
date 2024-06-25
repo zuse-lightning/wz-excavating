@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, List, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Patios = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/patios.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/patios-mobile.png";
+    const patiosUrl = whichWebsite(location, "https://www.wzexcavating.com/services/patios", "https://www.wzexcavatingllc.com/services/patios");
 
     return (
         <>
+            <SEO 
+                title="Patios, Walks, and Retaining Walls Services | WZ Trucking & Excavation"
+                description="Our patio services include design, installation, and maintenance, ensuring you get a durable and beautiful outdoor area that enhances your property's appeal and functionality. We offer a range of styles and materials, providing a personalized touch that complements your home's architecture and your personal taste."
+                keywords="Patios, Walks, Retaining Walls, Patio Design, Patio Installation, Patio Maintenance, Walkway Design, Walkway Installation, Walkway Maintenance, Retaining Wall Design, Retaining Wall Installation, Retaining Wall Maintenance, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Patios.png"
+                url={patiosUrl}
+            />
             <div id="patios-container">
                 <Image id="patios-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="patios">

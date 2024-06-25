@@ -1,17 +1,27 @@
 import React from "react";
 import { Button, Header, Image, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const SitePrep = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/site-prep.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/site-prep-mobile.png";
+    const sitePrepUrl = whichWebsite(location, "https://www.wzexcavating.com/services/site-prep", "https://www.wzexcavatingllc.com/services/site-prep");
 
     return (
         <>
+            <SEO 
+                title="Site Prep | WZ Trucking & Excavation"
+                description="Site preparation is a crucial first step in any construction or landscaping project, laying the foundation for successful and sustainable development. Our site clearing and grading services ensure that your site is ready for the next phase of construction by removing obstacles, leveling the ground, and creating a stable and safe base for building."
+                keywords="Site Preparation, Site Clearing, Grading, Excavation, Earthmoving, Erosion Control, Drainage Solutions, Stormwater Management, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Site+Prep.png"
+                url={sitePrepUrl}
+            />
             <div id="site-prep-container">
                 <Image id="site-prep-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="site-prep">

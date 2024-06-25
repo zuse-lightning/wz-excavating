@@ -1,17 +1,27 @@
 import React from "react";
 import { Button, Header, Image, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Driveways = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/driveways.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/driveways-mobile.png";
+    const drivewaysUrl = whichWebsite(location, "https://www.wzexcavating.com/services/driveways", "https://www.wzexcavatingllc.com/services/driveways");
 
     return (
         <>
+            <SEO 
+                title="Driveways | WZ Trucking & Excavation"
+                description="Our driveway design and installation services are tailored to meet the unique needs of residential, commercial, and industrial properties, ensuring an aesthetically pleasing and long-lasting solution. We work with a variety of materials and styles to create driveways that complement your property and meet your specific requirements."
+                keywords="Driveways, Driveway Design, Driveway Installation, Driveway Maintenance, Driveway Repair, Driveway Replacement, Driveway Upgrades, Permeable Driveways, Asphalt Driveways, Concrete Driveways, Paver Driveways, Gravel Driveways, WZ Trucking & Excavation Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Driveways.png"
+                url={drivewaysUrl}
+            />
             <div id="driveways-container">
                 <Image id="driveways-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="driveways">

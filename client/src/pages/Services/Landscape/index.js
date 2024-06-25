@@ -1,17 +1,27 @@
 import React from "react";
 import { Button, Header, Image, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Landscape = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/landscape.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/landscape-mobile.png";
+    const landscapeUrl = whichWebsite(location, "https://www.wzexcavating.com/services/landscape", "https://www.wzexcavatingllc.com/services/landscape");
 
     return (
         <>
+            <SEO 
+                title="Landscape Architecture | WZ Trucking & Excavation"
+                description="Landscape architecture is a multidisciplinary field that combines art and science to create functional, aesthetically pleasing, and sustainable outdoor spaces. Our landscape planning and design services provide comprehensive solutions that transform ordinary environments into beautiful, innovative landscapes that enhance the quality of life and respect the natural environment."
+                keywords="Landscape Architecture, Landscape Planning, Landscape Design, Urban Design, Public Spaces, Residential Landscapes, Environmental Restoration, Habitat Restoration, Water Resource Management, Sustainable Design, WZ Trucking & Excavation Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Landscape+Architecture.png"
+                url={landscapeUrl}
+            />
             <div id="landscape-container">
                 <Image id="landscape-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="site-prep">

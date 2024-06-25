@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, List, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const LawnCare = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/lawn-care.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/lawn-care-mobile.png";
+    const lawnCareUrl = whichWebsite(location, "https://www.wzexcavating.com/services/lawn-care", "https://www.wzexcavatingllc.com/services/lawn-care");
 
     return (
         <>
+            <SEO 
+                title="Lawn Care | WZ Trucking & Excavation"
+                description="Our lawn maintenance services are designed to keep your lawn healthy, lush, and vibrant year-round. These services include routine mowing, trimming, edging, and debris removal to ensure a neat and manicured appearance."
+                keywords="Lawn Care, Lawn Maintenance, Lawn Health Care, Seasonal Services, Mowing, Trimming, Debris Removal, Fertilization, Weed Control, Aeration, Pest Management, Spring Services, Summer Services, Fall Services, Winter Services, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Lawn+Care.png"
+                url={lawnCareUrl}
+            />
             <div id="lawn-care-container">
                 <Image id="lawn-care-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="lawn-care">
