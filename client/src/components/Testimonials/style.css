@@ -96,27 +96,33 @@
 
 @media (max-width: 991px) and (min-width: 801px) {
     #testimonials {
-        width: 50%;
-        margin: 5% 25%;
+        width: 60%;
+        margin: 5% 20%;
     }
 
     .testimonial-text {
         font-size: 16px;
         line-height: 30px;
+    }
+
+    .slick-slider {
+        margin-left: 2%;
     }
 }
 
 @media (max-width: 800px) and (min-width: 768px) {
     #testimonials {
-        width: 50%;
-        margin: 5% 25%;
-        row-gap: 40px;
-        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        margin: 5% 20%;
     }
 
     .testimonial-text {
         font-size: 16px;
         line-height: 30px;
+    }
+
+    .slick-slider {
+        margin-left: 2%;
     }
 }
 
@@ -129,13 +135,14 @@
     #testimonials {
         width: 70%;
         margin: 5% 15%;
-        row-gap: 40px;
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .testimonial-text {
         font-size: 16px;
         line-height: 30px;
+    }
+    .slick-slider {
+        margin-left: 3.5%;
     }
 }
 
@@ -146,14 +153,15 @@
     }
 
     #testimonials {
-        width: 90%;
-        margin: 5% 5%;
-        row-gap: 40px;
-        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        margin: 5% 15%;
     }
 
     .testimonial-text {
         font-size: 16px;
         line-height: 30px;
+    }
+    .slick-slider {
+        margin-left: 4%;
     }
 }

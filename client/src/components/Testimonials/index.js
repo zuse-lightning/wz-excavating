@@ -29,13 +29,20 @@ const PrevArrow = (props) => {
     );
 };
 
-const Testimonials = () => {
+const Testimonials = (props) => {
+
+    const { screenWidth } = props;
+
+    let slideNum = 2;
+    if (screenWidth <= 991) {
+        slideNum = 1;
+    }
 
     const settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: slideNum,
+        slidesToScroll: slideNum,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
     };

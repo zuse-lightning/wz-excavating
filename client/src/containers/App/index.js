@@ -61,8 +61,8 @@ const App = () => {
                     </div>
                 </Sidebar.Pusher>
             </Sidebar.Pushable>
-            <Certifications />
-            <Testimonials />
+            {/* <Certifications /> */}
+            <Testimonials screenWidth={width} />
             <Footer />
         </>
 
