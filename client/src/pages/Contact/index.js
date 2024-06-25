@@ -1,12 +1,25 @@
 import React from "react";
 import { Icon, Header } from "semantic-ui-react";
 import ContactForm from "../../components/ContactForm";
+import SEO from "../../components/SEO";
 
 import "./style.css";
 
 const Contact = (props) => {
+
+    const { location, whichWebsite } = props;
+    const contactUrl = whichWebsite(location, "https://www.wzexcavating.com/contact", "https://www.wzexcavatingllc.com/contact");
+
     return (
         <>
+            <SEO 
+                title="Contact | WZ Trucking & Excavation"
+                description="Please contact us to schedule an appointment or phone call. We are happy to answer any questions you may have about our services. We look forward to hearing from you!"
+                keywords="Contact, WZ Trucking & Excavation, Snohomish, WA, Snohomish County, Top Soil, Gravel, Land Grading, Excavation, Drainage Systems & Trenches, Patio, Walks and Retaining Walls, Lawn Care, Site Preparation, Driveways, Landscape Architecture"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Contact.png"
+                url={contactUrl}
+            />
             <div id="contact-container">
                 <div id="contact">
                     <div className="contact-col">

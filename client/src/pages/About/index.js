@@ -1,12 +1,24 @@
 import React from "react";
 import { Header, List } from "semantic-ui-react";
+import SEO from "../../components/SEO";
 
 import "./style.css";
 
 const About = (props) => {
 
+    const { location, whichWebsite } = props;
+    const aboutUrl = whichWebsite(location, "https://www.wzexcavating.com/about", "https://www.wzexcavatingllc.com/about");
+
     return (
         <>
+            <SEO 
+                title="About | WZ Trucking & Excavation"
+                description="WZ Trucking & Excavation is your trusted partner for comprehensive construction and landscaping solutions in Snohomish, WA. From site preparation to landscaping, we deliver high-quality results that exceed your expectations."
+                keywords="About, WZ Trucking & Excavation, Snohomish, WA, Snohomish County, Top Soil, Gravel, Land Grading, Excavation, Drainage Systems & Trenches, Patio, Walks and Retaining Walls, Lawn Care, Site Preparation, Driveways, Landscape Architecture"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/About.png"
+                url={aboutUrl}
+            />
             <div id="about-container">
                 <div id="about">
                     <div className="about-col">
