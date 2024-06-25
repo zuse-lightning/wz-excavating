@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, Button, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const TopSoil = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/top-soil.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/top-soil-mobile.png";
+    const topSoilUrl = whichWebsite(location, "https://www.wzexcavating.com/services/top-soil", "https://www.wzexcavatingllc.com/services/top-soil");
 
     return (
         <>
+            <SEO 
+                title="Top Soil | WZ Trucking & Excavation"
+                description="Maximize the health and productivity of your soil with our comprehensive topsoil services. We offer expert solutions tailored to agriculture, landscaping, construction, and environmental conservation."
+                keywords="Top Soil, Soil Testing, Soil Analysis, Soil Conditioning, Soil Amendment, Erosion Control, Land Grading, Leveling, Topsoil Supply, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Top+Soil.png"
+                url={topSoilUrl}
+            />
             <div id="top-soil-container">
                 <Image id="top-soil-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="top-soil">

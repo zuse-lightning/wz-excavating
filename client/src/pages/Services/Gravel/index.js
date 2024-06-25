@@ -1,17 +1,27 @@
 import React from "react";
 import { Image, Header, Button, List } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import SEO from "../../../components/SEO";
 
 import "./style.css";
 
 const Gravel = (props) => {
 
-    const { screenWidth } = props;
+    const { screenWidth, location, whichWebsite } = props;
     let desktopBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/desktop/gravel.png";
     let mobileBanner = "https://wz-excavating-bucket.s3.amazonaws.com/banners/mobile/gravel-mobile.png";
+    const gravelUrl = whichWebsite(location, "https://www.wzexcavating.com/services/gravel", "https://www.wzexcavatingllc.com/services/gravel");
 
     return (
         <>
+            <SEO 
+                title="Gravel | WZ Trucking & Excavation"
+                description="Gravel is essential for a variety of construction, landscaping, and maintenance projects, offering both functional and aesthetic benefits. Our gravel services provide comprehensive solutions tailored to meet the specific needs of each project, ensuring durability, practicality, and visual appeal."
+                keywords="Gravel, Gravel Driveways, Gravel Pathways, Gravel Drainage, Decorative Gravel, Gravel Delivery, Gravel Installation, Site Preparation, Grading, WZ Trucking & Excavation, Snohomish, WA, Snohomish County"
+                type="website"
+                image="https://wz-excavating-bucket.s3.amazonaws.com/screenshots/Gravel.png"
+                url={gravelUrl}
+            />
             <div id="gravel-container">
                 <Image id="gravel-banner" src={screenWidth >= 992 ? desktopBanner : mobileBanner} fluid />
                 <div id="gravel">
